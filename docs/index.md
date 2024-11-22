@@ -1,17 +1,17 @@
 ---
 title: Chris Grieser
 ---
-
 ## Academic research in sociology
 **Research areas**  
-Digital economy, Sociology of Technology, Sociology of
-Science, Qualitative Methods
+Digital economy, Sociology of Technology, Sociology of Science, Qualitative
+Methods
 
 **PhD-project**  
 The goal of my PhD-project is to explain how the governance of digital platforms
 is linked with the issue of innovating upon interdependent technologies. My
 empirical case is the development of apps on iOS and Android, where I conduct
-qualitative interviews as well as document analyses. [Read more.](/phd-project)
+qualitative interviews as well as document analyses. [Read
+more](/phd-project).
 
 **Further information**
 - [University website](https://www.tu.berlin/en/sos/about/team/christopher-grieser-ma)
@@ -30,7 +30,8 @@ features in the Alfred Gallery](https://alfred.app/workflows/chrisgrieser/reddit
 
 - [GitHub profile](https://github.com/chrisgrieser)
 - <a rel="me" href="https://pkm.social/@pseudometa">Mastodon</a>
-  <!--https://pkm.social/settings/verification -->
+  <!-- https://pkm.social/settings/verification -->
 
-[![github
-stats](https://github-readme-stats.vercel.app/api?username=chrisgrieser&count_private=false&show_icons=true)](https://github.com/chrisgrieser)
+![GitHub
+stats](https://github-readme-stats.vercel.app/api?username=chrisgrieser&show_icons=true&theme=transparent)
+<!-- https://github.com/anuraghazra/github-readme-stats#github-stats-card -->
