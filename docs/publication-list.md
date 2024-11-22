@@ -113,7 +113,8 @@ Profile](https://github.com/chrisgrieser).*
   (2022)](https://www.obsidianroundup.org/one-size-fits-all-how-to-take-big-notes-and-how-to-take-small-notes/)
 - [Nano Tips for Vim](https://nanotipsforvim.prose.sh/) (Blog on Vim Usage
   Tricks)
-- [Comprehensive Academic Workflow from Reading to Writing in Markdown (2020)]({% post_url 2021-12-20-comprehensive-academic-workflow %})
-<!-- https://jekyllrb.com/docs/liquid/tags/#linking-to-posts -->
+- [Comprehensive Academic Workflow from Reading to Writing in Markdown
+  (2020)]({% post_url 2021-12-20-comprehensive-academic-workflow %}) <!--
+  https://jekyllrb.com/docs/liquid/tags/#linking-to-posts -->
 
 
