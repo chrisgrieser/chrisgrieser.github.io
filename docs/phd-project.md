@@ -1,10 +1,12 @@
 ---
 layout: default
-title: "Chris Grieser – PhD-project"
+title: PhD-project
 permalink: /phd-project
 ---
+# PhD-project
+**Working title: Platform-Governance & the Compatibility-Innovation-Dilemma** 
 
-# More on my PhD-project
+## Background
 Academic research on platforms can basically be divided into two areas of study:
 On the one hand, platforms are seen as *technical infrastructures* that provide
 core functionality for complimentary products, e.g. a mobile operating system
@@ -40,4 +42,19 @@ other, I conduct qualitative interviews with app developers, CTOs, and computer
 scientists as well as extensive document analyses of several types of field
 documents.
 
-![Figure](./images/Graph_Combined_platform_concept.webp)
+![Graph of platform dimensions](./images/graph-platform-dimensions.webp)
+
+## Publications related to the PhD-project
+- Grieser, C. (2023). Innovation as Keeping Up. Interdependent Technologies as
+  Drivers of the Innovation Society. In: Schulz-Schaeffer, I., Seibt, D.,
+  Windeler, A. (eds) Innovationsgesellschaft heute. Springer VS, Wiesbaden.
+  (➡️ [online](https://doi.org/10.1007/978-3-658-39743-2_4))
+- Grieser, C. (2020). Plattformen als infrastrukturzentrierte Märkte. Eine
+  Integration von Markt- und Infrastruktur-Perspektiven auf Plattformen,
+  illustriert am Beispiel von Solo-Selbstständigkeit im digitalen Kapitalismus.
+  [Platforms as infrastructure-centered markets.Integrating Market- and
+  Infrastructure Perspectives using the example of Self-Employment in Digital
+  Capitalism.] Gesellschaft unter Spannung. Verhandlungen des 40. Kongresses der
+  Deutschen Gesellschaft Für Soziologie 2020. (➡️
+  [online](https://publikationen.soziologie.de/index.php/kongressband_2020/article/view/1309))
+

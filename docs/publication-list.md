@@ -1,14 +1,16 @@
 ---
 layout: default
-title: "Academic publications, talks & software"
-permalink: /academic-publications
+title: Academic publications, talks & software
+permalink: /publication-list
 ---
+# Publications, talks & software
 
+## Table of Contents
 <!-- toc -->
 
 - [Publications](#publications)
 - [Talks](#talks)
-- [Academic Software](#academic-software)
+- [Academic software](#academic-software)
 
 <!-- tocstop -->
 
@@ -98,5 +100,22 @@ permalink: /academic-publications
   [https://github.com/chrisgrieser/pdf-summarizer-alfred](https://github.com/chrisgrieser/pdf-summarizer-alfred)
 - Grieser, C. (2023). Supercharged Citation Picker [Computer software].
   [https://github.com/chrisgrieser/alfred-bibtex-citation-picker](https://github.com/chrisgrieser/alfred-bibtex-citation-picker)
-- other non-academic tools I created can be found at [my GitHub
-  Profile](https://github.com/chrisgrieser)
+
+*Other non-academic software I created can be found at [my GitHub
+Profile](https://github.com/chrisgrieser).*
+
+## Non-academic publications
+- [Interview with me on how I use my Vault/Zettelkasten in Obsidian (YouTube,
+  2h, 2022)](https://www.youtube.com/watch?v=DzJOJxDgQKc)
+- [One-Size-Fits-All? How to Take Big Notes and How to Take Small Note
+  (2022)](https://www.obsidianroundup.org/one-size-fits-all-how-to-take-big-notes-and-how-to-take-small-notes/)
+- [Nano Tips for Vim](https://nanotipsforvim.prose.sh/) (Blog on Vim Usage
+  Tricks)
+
+<ul>
+  {% for post in site.posts %}
+    <li>
+      <a href="{{ post.url }}">{{ post.title }}</a>
+    </li>
+  {% endfor %}
+</ul>

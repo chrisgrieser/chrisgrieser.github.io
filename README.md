@@ -1,4 +1,4 @@
-# My website
+# Setup information
 
 <!-- toc -->
 
