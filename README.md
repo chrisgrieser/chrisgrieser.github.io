@@ -7,11 +7,11 @@ Domain: <https://chris-grieser.de/>, bought via
 - [Information](#information)
 - [Progress & blockers](#progress--blockers)
   * [Migration from Fruition (my previous website setup)](#migration-from-fruition-my-previous-website-setup)
-  * [Custom domain setup](#custom-domain-setup)
+  * [Custom domain setup for GitHub](#custom-domain-setup-for-github)
   * [DNS check](#dns-check)
   * [Domain verification](#domain-verification)
   * [SSL encryption](#ssl-encryption)
-- [Info on previous website](#info-on-previous-website)
+- [Info on previous website setup](#info-on-previous-website-setup)
   * [How it worked](#how-it-worked)
   * [Past issues with Fruition](#past-issues-with-fruition)
 
@@ -45,7 +45,7 @@ Domain: <https://chris-grieser.de/>, bought via
 > change *website content* to English, not the Strato dashboard itself. Looking
 > at the Strato FAQ and help pages also did not yield any usable results.
 
-### Custom domain setup
+### Custom domain setup for GitHub
 - [GitHub docs: Manage custom
   domain](https://docs.github.com/en/pages/configuring-a-custom-domain-for-your-github-pages-site/managing-a-custom-domain-for-your-github-pages-site)
 - Strato's dashboard only offers `A` and `AAAA` as the type of address.
@@ -84,26 +84,31 @@ $ dig EXAMPLE.COM +noall +answer -t AAAA
 > GitHub names for addresses each for `A` and `AAAA`, but `strato.de` only
 > accepts one each. Unclear whether this is a problem.
 
-`A` and `AAAA` both have a green check mark at Strato, but GitHub's verification
-via `dig` is not (yet?) successful.
+`A` and `AAAA` both have a green check mark at Strato, and the verification
+via `dig` appears to work.
 
 ```bash
-# current output
-$ dig EXAMPLE.COM +noall +answer -t A
-; <<>> DiG 9.10.6 <<>> chris-grieser.de +noall +answer -t A
-;; global options: +cmd
+dig chris-grieser.de +noall +answer -t AAAA
 
-$ dig EXAMPLE.COM +noall +answer -t AAAA
 ; <<>> DiG 9.10.6 <<>> chris-grieser.de +noall +answer -t AAAA
 ;; global options: +cmd
+chris-grieser.de.       92      IN      AAAA    2606:50c0:8000::153
+```
+
+```bash
+dig chris-grieser.de +noall +answer -t A
+
+; <<>> DiG 9.10.6 <<>> chris-grieser.de +noall +answer -t A
+;; global options: +cmd
+chris-grieser.de.       150     IN      A       185.199.108.153
 ```
 
 ### DNS check
-GitHub's DNS check errors in is unsuccessful with the message: 
+GitHub's DNS check errors in is unsuccessful with the message:
 
-> Both chris-grieser.de and its alternate name are improperly configured
+> Both `chris-grieser.de` and its alternate name are improperly configured
 > Domain's DNS record could not be retrieved. For more information, see
-> documentation (InvalidDNSError).
+> documentation (`InvalidDNSError`).
 
 > [!NOTE]
 > It is unclear whether this is an issue or this is due to the 24h-period for
@@ -140,7 +145,7 @@ I followed the instructions on the Fruition website (which are down at the
 moment).
 
 ### Past issues with Fruition
-* ["Issue with your iOS app" error · Issue #55 ·
+- ["Issue with your iOS app" error · Issue #55 ·
 	stephenou/fruitionsite](https://github.com/stephenou/fruitionsite/issues/55#issuecomment-1978266460)
-* [Doesn't the script work anymore? · Issue #287 ·
+- [Doesn't the script work anymore? · Issue #287 ·
 	stephenou/fruitionsite](https://github.com/stephenou/fruitionsite/issues/287)
