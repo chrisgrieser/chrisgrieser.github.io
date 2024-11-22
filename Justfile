@@ -2,8 +2,8 @@ set quiet := true
 
 [macos]
 open-website:
-    open "https://chris-grieser.de/"
     open "https://chris-grieser.de/sitemap"
+    open "https://chris-grieser.de/"
 
 [macos]
 inspect-deployments:

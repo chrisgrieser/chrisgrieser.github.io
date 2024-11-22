@@ -1,1 +1,5 @@
+# only contains domain name, never needs to be actually edited
 CNAME
+
+# only short notice
+README.md
