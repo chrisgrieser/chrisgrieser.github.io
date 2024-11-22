@@ -73,7 +73,7 @@ draft, the citations are used to add the bibliography to the finished
 manuscript. Ideally, you also use a template to save the time of creating a new
 layout every time you write a paper.
 
-![abstract academic workflow](/images/academic-workflow-abstract.webp)
+![abstract academic workflow](/images/academic-workflow-abstract.webp){: width="50%" }
 
 ### The simple Word-Zotero version
 However, the outlined workflow is not only a very generalized version, but quite
@@ -106,7 +106,7 @@ inserted. The compiling of the final document is particularly easy, since using
 the Zotero-Word-workflow enables to export the draft as PDF with just a few
 clicks.
 
-![unorganized academic workflow](/images/academic-workflow-unorganized.webp)
+![unorganized academic workflow](/images/academic-workflow-unorganized.webp){: width="50%" }
 
 ### The Zotero-ZotFile-BetterBibTeX-MDNotes-Obsidian-Pandoc version
 Now many people here and especially power users dislike Word and would prefer to
@@ -458,10 +458,10 @@ pseudo-pandoc-markdown-syntax](https://github.com/manubot/rootstock/blob/main/US
 to insert them *directly* into the draft. The promo screenshot from Manubot to
 the right explains the approach probably better than words can.
 
-![Showcase manubot](https://i.imgur.com/eurIfWT.png)
+![Showcase manubot](https://i.imgur.com/eurIfWT.png){: width="50%" }
 
 ![manubot/url2cite as a shortcut get citations into your
-manuscript](https://i.imgur.com/2wDBjcK.png)
+manuscript](https://i.imgur.com/2wDBjcK.png){: width="50%" }
 
 Regarding the generalized academic workflow, this direct-identifier-approach
 basically works by skipping reference managers entirely, skipping subtask #1
@@ -569,6 +569,8 @@ This leaves me to conclude with one last mermaid diagram, depicting my very own
 workflow. As all the tools used have been mentioned in the sections before,
 little additional explanation should be necessary.
 
-![my own workflow](https://i.imgur.com/qAMNlr7.png)
+![my own workflow](https://i.imgur.com/qAMNlr7.png){: width="50%" }
+
+
 
 

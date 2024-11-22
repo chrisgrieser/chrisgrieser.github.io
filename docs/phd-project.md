@@ -49,7 +49,7 @@ other, I conduct qualitative interviews with app developers, CTOs, and computer
 scientists as well as extensive document analyses of several types of field
 documents.
 
-![Graph of platform dimensions](./images/graph-platform-dimensions.webp)
+![Graph of platform dimensions](./images/graph-platform-dimensions.webp){: width="50%" }
 
 ## Publications related to the PhD-project
 - Grieser, C. (2023). Innovation as Keeping Up. Interdependent Technologies as
