@@ -1,7 +1,6 @@
-# Chris Grieser
-**Research & Teaching Associate**  
-*Research Group for Social Studies of Science & Technology*  
-*Technical University of Berlin (Germany)*
+---
+layout: default
+---
 
 <!-- toc -->
 

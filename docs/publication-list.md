@@ -1,4 +1,8 @@
-# All publications, talks & academic software
+---
+layout: default
+title: "Academic publications, talks & software"
+permalink: /academic-publications
+---
 
 <!-- toc -->
 

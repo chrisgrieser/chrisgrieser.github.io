@@ -1,3 +1,9 @@
+---
+layout: default
+title: "Chris Grieser – PhD-project"
+permalink: /phd-project
+---
+
 # More on my PhD-project
 Academic research on platforms can basically be divided into two areas of study:
 On the one hand, platforms are seen as *technical infrastructures* that provide

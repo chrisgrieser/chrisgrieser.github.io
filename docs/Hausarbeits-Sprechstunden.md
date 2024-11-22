@@ -1,6 +1,10 @@
-# Hausarbeits-Sprechstunden Chris
+---
+layout: default
+title: "Hausarbeits-Sprechstunden Chris"
+permalink: /hausarbeits-sprechstunden
+---
 
-[Google Calender](https://calendar.google.com/calendar/embed?src=4khklkfritt0g1inbnfp4hd67s%40group.calendar.google.com&ctz=Europe%2FBerlin&mode=agenda&showTabs=0&showCalendars=0&showPrint=0&showTitle=0&showDate=0&showNav=0)
+[Google Calendar](https://calendar.google.com/calendar/embed?src=4khklkfritt0g1inbnfp4hd67s%40group.calendar.google.com&ctz=Europe%2FBerlin&mode=agenda&showTabs=0&showCalendars=0&showPrint=0&showTitle=0&showDate=0&showNav=0)
 
 *Falls keine Termine angezeigt werden, bitte "Weitere Termine suchen" anklicken.*
 

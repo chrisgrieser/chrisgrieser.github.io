@@ -1,7 +1,10 @@
-# Comprehensive Academic Workflow from Reading to Writing in Markdown
-*by Chris Grieser*
-
-Last update: 20. December 2021
+---
+layout: default
+title: Comprehensive Academic Workflow from Reading to Writing in Markdown
+date: '2021-12-20 15:00:00 +0000'
+categories: academic-workflow
+---
+## Table of Contents
 
 <!-- toc -->
 
@@ -496,7 +499,7 @@ pandoc "path/to/input.md" -o "path/to/input.docx" --citeproc --bibliography "pat
   and Pandoc vast capabilities are not really utilized.
 - If you are willing to pay, there are also some paid options like
   [Writage](https://www.writage.com/) that make it more convenient to convert
-  from markdown to Word
+  from Markdown to Word
 - The [Obsidian Pandoc
   Plugin](https://github.com/OliverBalfour/obsidian-pandoc) also provides a
   graphical wrapper for Pandoc. However, it only works for markdown notes inside
@@ -517,7 +520,7 @@ pandoc "path/to/input.md" -o "path/to/input.docx" --citeproc --bibliography "pat
 ### 8. Bonus: organizing longform writing
 
 Not strictly part of the workflow discussed here, but a much related issue is
-the question how to organize longform writing process itself. The basic approach
+the question of how to organize longform writing process itself. The basic approach
 ("dump everything into one document") is of course unsatisfactory. However,
 there are several very different solutions to this:
 
@@ -539,11 +542,11 @@ there are several very different solutions to this:
   Obsidian](https://github.com/kevboh/longform), which offers basic compiling
   and re-arranging functionality that is similar to Scrivener. It is, however,
   still a rather new solution, and some quite essential features like having
-  subchapters are still missing.
+  sub-chapters are still missing.
 	* When compiling with the Longform plugin, footnotes are not considered
 	  (yet), with the result that they are scattered all over the place. You can
 	  use the [Linter Plugin](https://github.com/platers/obsidian-linter) to
-	  move all of them to the bottom & also reindex them.
+	  move all of them to the bottom & also re-index them.
 	* Also relevant to people deciding to write Longform in Obsidian might be
 	  the [Obsidian Link
 	  Converter](https://github.com/ozntel/obsidian-link-converter) for
@@ -551,7 +554,7 @@ there are several very different solutions to this:
 	  Wikilinks (`![[ ]]`).
 	* You can use [this lua
 	  filter](https://gist.github.com/maybemkl/d9be15bcabadaa19d2ca50c87b59a92e)
-	  to remove wikilinks from a markdown document during conversion.
+	  to remove wikilinks from a Markdown document during conversion.
 	* For across-note-wordcounts, you can use my [Word Count
 	  Dashboard](https://gist.github.com/chrisgrieser/ac16a80cdd9e8e0e84606cc24e35ad99#file-word-count-dashboard-md)
 	  which uses [Dataview](https://github.com/blacksmithgu/obsidian-dataview)
@@ -562,4 +565,4 @@ This leaves me to conclude with one last mermaid diagram, depicting my very own
 workflow. As all the tools used have been mentioned in the sections before,
 little additional explanation should be necessary.
 
-![https://i.imgur.com/qAMNlr7.png](https://i.imgur.com/qAMNlr7.png)
+![my own workflow](https://i.imgur.com/qAMNlr7.png)
