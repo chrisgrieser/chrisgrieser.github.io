@@ -1,10 +1,11 @@
 ---
 layout: default
 title: Comprehensive Academic Workflow from Reading to Writing in Markdown
-date: 2021-12-20 15:00:00 +0000
-tags: 
+date: '2021-12-20 15:00:00 +0000'
+tags:
   - academic-workflow
 ---
+# Comprehensive Academic Workflow from Reading to Writing in Markdown
 *Last update: 20. December 2021*
 
 ## Table of Contents
@@ -72,7 +73,7 @@ draft, the citations are used to add the bibliography to the finished
 manuscript. Ideally, you also use a template to save the time of creating a new
 layout every time you write a paper.
 
-![abstract academic workflow](./images/academic-workflow-abstract.webp)
+![abstract academic workflow](/images/academic-workflow-abstract.webp)
 
 ### The simple Word-Zotero version
 However, the outlined workflow is not only a very generalized version, but quite
@@ -105,7 +106,7 @@ inserted. The compiling of the final document is particularly easy, since using
 the Zotero-Word-workflow enables to export the draft as PDF with just a few
 clicks.
 
-![unorganized academic workflow](./images/academic-workflow-unorganized.webp)
+![unorganized academic workflow](/images/academic-workflow-unorganized.webp)
 
 ### The Zotero-ZotFile-BetterBibTeX-MDNotes-Obsidian-Pandoc version
 Now many people here and especially power users dislike Word and would prefer to
@@ -569,3 +570,5 @@ workflow. As all the tools used have been mentioned in the sections before,
 little additional explanation should be necessary.
 
 ![my own workflow](https://i.imgur.com/qAMNlr7.png)
+
+

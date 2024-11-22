@@ -4,7 +4,14 @@ title: PhD-project
 permalink: /phd-project
 ---
 # PhD-project
-**Working title: Platform-Governance & the Compatibility-Innovation-Dilemma** 
+**Working title:** Platform-Governance & the Compatibility-Innovation-Dilemma
+
+<!-- toc -->
+
+- [Background](#background)
+- [Publications related to the PhD-project](#publications-related-to-the-phd-project)
+
+<!-- tocstop -->
 
 ## Background
 Academic research on platforms can basically be divided into two areas of study:
@@ -57,4 +64,3 @@ documents.
   Capitalism.] Gesellschaft unter Spannung. Verhandlungen des 40. Kongresses der
   Deutschen Gesellschaft Für Soziologie 2020. (➡️
   [online](https://publikationen.soziologie.de/index.php/kongressband_2020/article/view/1309))
-
