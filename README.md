@@ -4,13 +4,12 @@
 
 - [Learnings](#learnings)
 - [Information on the domain](#information-on-the-domain)
-- [Custom domain for GitHub pages](#custom-domain-for-github-pages)
+- [Custom domain for GitHub Pages](#custom-domain-for-github-pages)
   * [A & AAAA records](#a--aaaa-records)
   * [CNAME record](#cname-record)
   * [Domain verification (TXT record)](#domain-verification-txt-record)
 - [Content for GitHub Pages](#content-for-github-pages)
-- [Info on previous website setup](#info-on-previous-website-setup)
-  * [Migration from my previous website setup](#migration-from-my-previous-website-setup)
+- [Previous website setup](#previous-website-setup)
   * [How it worked](#how-it-worked)
   * [Past issues with Fruition](#past-issues-with-fruition)
 
@@ -44,10 +43,16 @@ this part is the realm of DNS
   However, due to using GitHub pages, it's the site uses the certificate from
   "Let's encrypt" (the provider used by GitHub).
 
-## Custom domain for GitHub pages
-- [GitHub docs: Manage custom
+## Custom domain for GitHub Pages
+- [GitHub Pages docs: Quickstart](https://docs.github.com/en/pages/quickstart)
+- [GitHub Pages docs: Manage custom
   domain](https://docs.github.com/en/pages/configuring-a-custom-domain-for-your-github-pages-site/managing-a-custom-domain-for-your-github-pages-site)
-- Using Strato as domain as well as DNS provider.
+- Using Strato as domain and as DNS provider.
+
+> [!NOTE]
+> When doing DNS changes, [removing and re-adding the custom
+> domain](https://docs.github.com/en/pages/configuring-a-custom-domain-for-your-github-pages-site/troubleshooting-custom-domains-and-github-pages#https-errors)
+> in the `Pages` settings may be required.
 
 ### A & AAAA records
 - Strato's domain config only offers `A` and `AAAA` as the type of address.
@@ -79,10 +84,11 @@ chris-grieser.de.       92      IN      AAAA    2606:50c0:8000::153
 ### Domain verification (TXT record)
 - [GitHub docs: Verifying a custom domain](https://docs.github.com/en/pages/configuring-a-custom-domain-for-your-github-pages-site/verifying-your-custom-domain-for-github-pages#verifying-a-domain-for-your-user-site)
 	* Note: the `Pages` settings mentioned in the docs refer to the settings in
-	  the GitHub *profile*, not the Pages settings of the `*.github.io`
-	  repository: <https://github.com/settings/pages>
+	  the GitHub *profile*, not the `Pages` settings of the `*.github.io`
+	  *repository*. (That is, the verification is done here:
+	  <https://github.com/settings/pages>.)
 - At the Strato dashboard, set the TXT for the domain, pointing
-  `_github-pages-challenge-chrisgrieser.chris-grieser.de` to the value
+  `_github-pages-challenge-chrisgrieser.chris-grieser.de` to the `{value}`
   listed on the page.
 
 ```bash
@@ -94,18 +100,13 @@ _github-pages-challenge-chrisgrieser.chris-grieser.de. 150 IN TXT "{value}"
 ```
 
 ## Content for GitHub Pages
-- [GitHub Pages docs: Quickstart](https://docs.github.com/en/pages/quickstart)
+- [Setting title and
+  description](https://docs.github.com/en/pages/quickstart#changing-the-title-and-description)
+- [Adding
+  content](https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/adding-content-to-your-github-pages-site-using-jekyll)
 
-## Info on previous website setup
+## Previous website setup
 *Information here kept for reference, the website itself does no longer exist.*
-
-### Migration from my previous website setup
-1. Export Notion content, delete notion page.
-2. Delete Web Worker at CloudFlare from the Fruition setup. Delete CloudFlare
-   account with the intention of only Strato for DNS and domain. (To keep the
-   number of required pieces to a minimum.)
-3. At the Strato dashboard, removed the use of the CloudFlare DNS and configured
-   the domain to use Strato's DNS.
 
 ### How it worked
 Components:
@@ -114,8 +115,7 @@ Components:
 - [Strato](https://www.strato.de/) for the domain.
 - [Cloudflare](http://www.cloudflare.com) was used as DNS service.
 
-I followed the instructions on the Fruition website (which are down at the
-moment).
+I followed the instructions on the Fruition website.
 
 ### Past issues with Fruition
 - ["Issue with your iOS app" error · Issue #55](https://github.com/stephenou/fruitionsite/issues/55#issuecomment-1978266460)
