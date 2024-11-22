@@ -1,9 +1,7 @@
 # Chris Grieser
-**Research & Teaching Associate**
-*Research Group for Social Studies of Science & Technology
-Technical University of Berlin (Germany)*
-
-## Table of Content
+**Research & Teaching Associate**  
+*Research Group for Social Studies of Science & Technology*  
+*Technical University of Berlin (Germany)*
 
 <!-- toc -->
 
@@ -22,7 +20,7 @@ Technical University of Berlin (Germany)*
 - Qualitative Methods
 
 ## PhD-project
-**Title: Platform-Governance & the Compatibility-Innovation-Dilemma**
+**Title: Platform-Governance & the Compatibility-Innovation-Dilemma**  
 The goal of my PhD-Project is to explain how the governance of digital platforms is linked with the issue of innovating upon interdependent technologies. My empirical case is the development of apps on iOS and Android, where I conduct qualitative interviews as well as document analyses.
 
 ## Brief academic resume
