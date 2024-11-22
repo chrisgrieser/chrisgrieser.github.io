@@ -111,11 +111,5 @@ Profile](https://github.com/chrisgrieser).*
   (2022)](https://www.obsidianroundup.org/one-size-fits-all-how-to-take-big-notes-and-how-to-take-small-notes/)
 - [Nano Tips for Vim](https://nanotipsforvim.prose.sh/) (Blog on Vim Usage
   Tricks)
-
-<ul>
-  {% for post in site.posts %}
-    <li>
-      <a href="{{ post.url }}">{{ post.title }}</a>
-    </li>
-  {% endfor %}
-</ul>
+- [Name of Link]({% post_url 2010-07-21-name-of-post %})
+<!-- https://jekyllrb.com/docs/liquid/tags/#linking-to-posts --> 

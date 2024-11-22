@@ -2,7 +2,8 @@
 layout: default
 title: Comprehensive Academic Workflow from Reading to Writing in Markdown
 date: 2021-12-20 15:00:00 +0000
-categories: academic-workflow
+tags: 
+  - academic-workflow
 ---
 *Last update: 20. December 2021*
 

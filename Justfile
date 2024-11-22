@@ -12,3 +12,7 @@ strato-and-github-pages-settings:
 [macos]
 inspect-deployments:
     open "https://github.com/chrisgrieser/chrisgrieser.github.io/actions"
+
+[macos]
+jekyll-docs:
+    open "https://jekyllrb.com/docs/front-matter/"
