@@ -20,7 +20,7 @@ as organized marketplaces centered around a certain technical infrastructure
 where both market and infrastructure are in the control of one entity. This
 perspective allows relating insights from research on software platforms with
 research on gig economy or dating platforms, as all three are seen as specific
-subtypes of platforms only with a different degree to which the infrastructure
+sub-types of platforms only with a different degree to which the infrastructure
 or the market organization is relevant (see figure below).
 
 The central research question of my PhD-project is how the specific governance
@@ -39,3 +39,5 @@ investigate the mechanisms through which platforms and apps coordinate with each
 other, I conduct qualitative interviews with app developers, CTOs, and computer
 scientists as well as extensive document analyses of several types of field
 documents.
+
+![Figure](./images/Graph_Combined_platform_concept.webp)

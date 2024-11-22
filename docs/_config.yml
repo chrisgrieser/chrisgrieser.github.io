@@ -5,8 +5,10 @@ description: Researcher in sociology & programmer
 #───────────────────────────────────────────────────────────────────────────────
 
 # Jekyll configuration
-theme: jekyll-theme-minimal
 
+# available themes for GitHub Pages: https://pages.github.com/themes/
+theme: jekyll-theme-modernist
+
+# for themes not hosted at GitHub
 # plugins: [jekyll-remote-theme]
 # remote_theme: pages-themes/modernist@v0.2.0
-# remote_theme: pages-themes/slate@v0.2.0
