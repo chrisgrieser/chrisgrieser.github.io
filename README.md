@@ -137,7 +137,7 @@ Information here kept for reference, the website itself does no longer exist.
 ### How it worked
 Components:
 - [Notion public sites](http://www.notion.so) &
-  [Fruition](https://fruitionsite.com/), for the content.
+  [Fruition](https://fruitionsite.com/) for the content.
 - [Strato](https://www.strato.de/) for the domain.
 - [Cloudflare](http://www.cloudflare.com) was used as DNS service.
 

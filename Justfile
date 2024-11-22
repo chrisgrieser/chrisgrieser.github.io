@@ -3,7 +3,7 @@ set quiet := true
 [macos]
 open-page-settings:
     open "https://github.com/chrisgrieser/chrisgrieser.github.io/settings/pages"
-
-[macos]
-open-github-io-site:
-    open "https://chrisgrieser.github.io/"
+    open "https://www.strato.de/apps/CustomerService"
+    oppen "https://dash.cloudflare.com/login"
+    open "https://github.com/chrisgrieser/chrisgrieser.github.io/"
+    open "https://chris-grieser.de/"
