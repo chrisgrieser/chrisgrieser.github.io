@@ -3,6 +3,18 @@
 *Research Group for Social Studies of Science & Technology
 Technical University of Berlin (Germany)*
 
+## Table of Content
+
+<!-- toc -->
+
+- [Main research areas](#main-research-areas)
+- [PhD-project](#phd-project)
+- [Brief academic resume](#brief-academic-resume)
+- [Academic software](#academic-software)
+- [Non-academic publications](#non-academic-publications)
+
+<!-- tocstop -->
+
 ## Main research areas
 - Digital Economy
 - Sociology of Technology & Innovation
