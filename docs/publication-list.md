@@ -1,16 +1,18 @@
 ---
 layout: default
-title: Academic publications, talks & software
+title: Publication list
 permalink: /publication-list
 ---
-# Publications, talks & software
+# Publication list
 
 ## Table of Contents
+
 <!-- toc -->
 
 - [Publications](#publications)
 - [Talks](#talks)
 - [Academic software](#academic-software)
+- [Non-academic publications](#non-academic-publications)
 
 <!-- tocstop -->
 
@@ -112,4 +114,6 @@ Profile](https://github.com/chrisgrieser).*
 - [Nano Tips for Vim](https://nanotipsforvim.prose.sh/) (Blog on Vim Usage
   Tricks)
 - [Name of Link]({% post_url 2021-12-20-comprehensive-academic-workflow %})
-<!-- https://jekyllrb.com/docs/liquid/tags/#linking-to-posts --> 
+<!-- https://jekyllrb.com/docs/liquid/tags/#linking-to-posts -->
+
+
