@@ -6,13 +6,6 @@ permalink: /phd-project
 # PhD-project
 **Working title:** Platform-Governance & the Compatibility-Innovation-Dilemma
 
-<!-- toc -->
-
-- [Background](#background)
-- [Publications related to the PhD-project](#publications-related-to-the-phd-project)
-
-<!-- tocstop -->
-
 ## Background
 Academic research on platforms can basically be divided into two areas of study:
 On the one hand, platforms are seen as *technical infrastructures* that provide
@@ -49,7 +42,7 @@ other, I conduct qualitative interviews with app developers, CTOs, and computer
 scientists as well as extensive document analyses of several types of field
 documents.
 
-![Graph of platform dimensions](./images/graph-platform-dimensions.webp){: width="50%" }
+![Graph of platform dimensions](./images/graph-platform-dimensions.webp){: width="70%" }
 
 ## Publications related to the PhD-project
 - Grieser, C. (2023). Innovation as Keeping Up. Interdependent Technologies as
