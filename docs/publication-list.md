@@ -111,5 +111,5 @@ Profile](https://github.com/chrisgrieser).*
   (2022)](https://www.obsidianroundup.org/one-size-fits-all-how-to-take-big-notes-and-how-to-take-small-notes/)
 - [Nano Tips for Vim](https://nanotipsforvim.prose.sh/) (Blog on Vim Usage
   Tricks)
-- [Name of Link]({% post_url 2010-07-21-name-of-post %})
+- [Name of Link]({% post_url 2021-12-20-comprehensive-academic-workflow %})
 <!-- https://jekyllrb.com/docs/liquid/tags/#linking-to-posts --> 
