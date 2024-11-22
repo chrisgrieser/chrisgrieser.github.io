@@ -31,7 +31,7 @@ this part is the realm of DNS
 
 ## Information on the domain
 <https://chris-grieser.de/>
-- bought via [Strato](https://www.strato.de/)
+- bought via [Strato](https://www.strato.de/apps/CustomerService)
 - apparently does not include `www.chris-grieser.de`
 - Allows up to 10 subdomains, however due to Strato only allowing one `A` and
   `AAA` record, it is not possible to use any subdomains with GitHub pages

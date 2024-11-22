@@ -1,3 +1,7 @@
+---
+title: Chris Grieser
+---
+
 ## Academic research in sociology
 **Research areas**  
 Digital economy, Sociology of Technology, Sociology of
