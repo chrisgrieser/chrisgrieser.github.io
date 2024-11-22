@@ -1,14 +1,14 @@
-# Website metadata
+# WEBSITE METADATA
 title: Chris Grieser
-description: Researcher in sociology & programmer
+description: Researcher in sociology & software developer
 
 #───────────────────────────────────────────────────────────────────────────────
+# JEKYLL CONFIGURATION
+# https://jekyllrb.com/docs/configuration/options/
 
-# Jekyll configuration
-
-# available themes for GitHub Pages: https://pages.github.com/themes/
+# Builtin themes for GitHub Pages: https://pages.github.com/themes/
 theme: jekyll-theme-modernist
 
-# for themes not hosted at GitHub
+# Remote themes, allowing any Jekyll theme: https://jekyllrb.com/docs/themes/
 # plugins: [jekyll-remote-theme]
 # remote_theme: pages-themes/modernist@v0.2.0

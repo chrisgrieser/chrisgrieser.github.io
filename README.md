@@ -104,6 +104,21 @@ _github-pages-challenge-chrisgrieser.chris-grieser.de. 150 IN TXT "{value}"
   description](https://docs.github.com/en/pages/quickstart#changing-the-title-and-description)
 - [Adding
   content](https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/adding-content-to-your-github-pages-site-using-jekyll)
+- [Jekyll docs](https://jekyllrb.com/docs/front-matter/)
+
+## Theme
+Are set in the [`_config.yml`](./docs/_config.yml) file.
+
+```yaml
+# Builtin themes for GitHub Pages: https://pages.github.com/themes/
+theme: jekyll-theme-modernist
+```
+
+```yaml
+# Remote themes, allowing any Jekyll theme: https://jekyllrb.com/docs/themes/
+plugins: [jekyll-remote-theme]
+remote_theme: pages-themes/modernist@v0.2.0
+```
 
 ## Previous website setup
 *Information here kept for reference, the website itself does no longer exist.*
