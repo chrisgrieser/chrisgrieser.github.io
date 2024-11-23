@@ -1,3 +1,6 @@
+---
+title: Chris Grieser – Website
+---
 ## Academic research in sociology
 **Research areas**  
 Digital economy, Sociology of Science & Technology, Qualitative Methods
