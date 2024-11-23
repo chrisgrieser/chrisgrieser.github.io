@@ -1,7 +1,7 @@
 set quiet := true
 
 # streaming
-deploy-update:
+deploy-update: && open-website
     #!/usr/bin/env zsh
     git add --all
     if [[ $? -ne 0 ]] ; then
@@ -16,9 +16,8 @@ deploy-update:
 
 [macos]
 open-website:
-    open "https://chris-grieser.de/sitemap"
     open "https://chris-grieser.de/"
 
 [macos]
-jekyll-docs:
-    open "https://jekyllrb.com/docs/front-matter/"
+sitemap:
+    open "https://chris-grieser.de/sitemap"

@@ -1,0 +1,4 @@
+# temporary jekyll files
+_site
+.jekyll-cache
+.jekyll-metadata

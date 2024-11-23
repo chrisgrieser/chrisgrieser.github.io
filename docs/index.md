@@ -17,8 +17,6 @@ is the development of apps for iOS and Android. [Read more.](/phd-project)
 - [Quadro: Obsidian plugin for
   Qualitative Data Analysis](https://github.com/chrisgrieser/obsidian-quadro)
 
----
-
 ## Software development
 I am also a self-taught software developer and have created various plugins for
 [Neovim](http://neovim.io), [Obsidian](http://obsidian.md), and
