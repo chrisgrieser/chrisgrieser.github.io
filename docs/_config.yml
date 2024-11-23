@@ -7,8 +7,8 @@ description: Researcher in sociology & software developer
 # https://jekyllrb.com/docs/configuration/options/
 
 # Builtin themes for GitHub Pages: https://pages.github.com/themes/
-theme: jekyll-theme-modernist
+# theme: jekyll-theme-modernist
 
 # Remote themes, allowing any Jekyll theme: https://jekyllrb.com/docs/themes/
-# plugins: [jekyll-remote-theme]
-# remote_theme: pages-themes/modernist@v0.2.0
+plugins: [jekyll-remote-theme]
+remote_theme: mmistakes/minimal-mistakes@4.26.2
