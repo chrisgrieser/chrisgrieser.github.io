@@ -32,7 +32,7 @@ for ((i = 1; i <= timeout_secs; i++)); do
 	[[ "$run_status" == "completed" ]] && break
 	pos=$((i % ${#spinner}))
 	printf "\33[2K\r" # fully delete previous line
-	echo "${spinner:$pos:1} [$workflow_name] $run_status"
+	echo -n "${spinner:$pos:1} [$workflow_name] $run_status"
 done
 printf "\33[2K\r" # remove progress-message/spinner
 
