@@ -51,4 +51,4 @@ else
 fi
 
 echo "$msg"
-[[ "$OSTYPE" =~ "darwin" ]] && afplay "/System/Library/Sounds/$sound.aiff"
+[[ "$OSTYPE" =~ "darwin" ]] && afplay "/System/Library/Sounds/$sound.aiff" &
