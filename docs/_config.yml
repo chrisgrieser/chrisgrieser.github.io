@@ -6,12 +6,14 @@ description: Researcher in sociology & software developer
 # JEKYLL CONFIGURATION
 # https://jekyllrb.com/docs/configuration/options/
 
+github: { is_project_page: false } # remove the "View on GitHub" button
+
+#───────────────────────────────────────────────────────────────────────────────
+# THEME
+
 # Builtin themes for GitHub Pages: https://pages.github.com/themes/
 theme: jekyll-theme-slate
-
-# Remote themes, allowing more Jekyll theme: https://jekyllrb.com/docs/themes/
+# Remote allows more Jekyll theme: https://jekyllrb.com/docs/themes/
 # plugins: [jekyll-remote-theme]
-# remote_theme: mmistakes/minimal-mistakes@4.26.2
+# remote_theme: …
 
-github:
-  is_project_page: false # remove the "View on GitHub" button

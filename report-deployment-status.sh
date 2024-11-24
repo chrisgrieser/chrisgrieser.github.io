@@ -1,10 +1,11 @@
 #!/usr/bin/env zsh
 # INFO
-# - Checks the deployment status of the latest GitHub Action run and exits either
-#   after a timeout or when done.
-# - Requires the `$GITHUB_TOKEN`.
+# - Checks the deployment status of the latest GitHub Action run and exits
+#   either after a timeout or when done.
+# - Requires a `$GITHUB_TOKEN`, due to the high number of request being sent.
 # - The json response from GitHub is parsed via `cut` and `grep` instead of
 #   `jq`/`yq` to avoid introducing a dependency.
+# - If on macOS, plays a sound when done.
 #───────────────────────────────────────────────────────────────────────────────
 
 # CONFIG
@@ -14,7 +15,6 @@ timeout_secs=300 # = 5 minutes
 #───────────────────────────────────────────────────────────────────────────────
 
 current_repo=$(git remote --verbose | head -n1 | cut -d: -f2 | cut -d" " -f1)
-
 for ((i = 1; i <= timeout_secs; i++)); do
 	sleep 0.9 # assuming ~0.1 seconds per curl request
 	last_run=$(
@@ -35,11 +35,19 @@ for ((i = 1; i <= timeout_secs; i++)); do
 done
 printf "\r" # remove progress-message/spinner
 
+#───────────────────────────────────────────────────────────────────────────────
+
 conclusion=$(echo "$last_run" | grep '"conclusion":' | cut -d'"' -f4)
 if [[ "$run_status" != "completed" ]]; then
-	echo "⚠️ Timeout after $timeout_secs seconds."
+	msg="⚠️ Timeout after $timeout_secs seconds."
+	sound="Basso"
 elif [[ "$conclusion" != "success" ]]; then
-	echo "❌ $conclusion"
+	msg="❌ $conclusion"
+	sound="Basso"
 else
-	echo "✅ Success"
+	msg="✅ Success"
+	sound="Hero"
 fi
+
+echo "$msg"
+[[ "$OSTYPE" =~ "darwin" ]] && afplay "/System/Library/Sounds/$sound.aiff"

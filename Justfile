@@ -1,10 +1,10 @@
 set quiet := true
 
-url := "https://chris-grieser.de"
+domain := "https://chris-grieser.de"
 
 #───────────────────────────────────────────────────────────────────────────────
 
-# `report-deployment-status.sh` is streaming output
+# streaming output
 deploy-update:
     #!/usr/bin/env zsh
     git add --all
@@ -14,15 +14,14 @@ deploy-update:
     fi
     git commit --message="content: update" && 
         git push --no-progress &&
-        ./report-deployment-status.sh &&
-        afplay "/System/Library/Sounds/Hero.aiff" # `afplay` is macOS only
+        ./report-deployment-status.sh
 
 #───────────────────────────────────────────────────────────────────────────────
 
 [macos]
 open-website:
-    open "{{ url }}"
+    open "{{ domain }}"
 
 [macos]
 sitemap:
-    open "{{ url }}/sitemap"
+    open "{{ domain }}/sitemap"
