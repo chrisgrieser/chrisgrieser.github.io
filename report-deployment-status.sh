@@ -42,13 +42,17 @@ conclusion=$(echo "$last_run" | grep '"conclusion":' | cut -d'"' -f4)
 if [[ "$run_status" != "completed" ]]; then
 	msg="⚠️ Timeout after $timeout_secs seconds."
 	sound="Basso"
+	code=1
 elif [[ "$conclusion" != "success" ]]; then
 	msg="❌ $conclusion"
 	sound="Basso"
+	code=1
 else
 	msg="✅ Success"
 	sound="Hero"
+	code=0
 fi
 
 echo "$msg"
 [[ "$OSTYPE" =~ "darwin" ]] && afplay "/System/Library/Sounds/$sound.aiff" &
+exit $code
