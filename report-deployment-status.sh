@@ -33,7 +33,7 @@ for ((i = 1; i <= timeout_secs; i++)); do
 	pos=$((i % ${#spinner}))
 	printf "\r%s [%s] %s" "${spinner:$pos:1}" "$workflow_name" "$run_status"
 done
-printf "\r" # remove progress-message/spinner
+printf "\33[2K\r" # remove progress-message/spinner
 
 #───────────────────────────────────────────────────────────────────────────────
 
