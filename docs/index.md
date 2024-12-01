@@ -39,6 +39,5 @@ stats](https://github-readme-stats.vercel.app/api?username=chrisgrieser&show_ico
 ## Contact
 - **Academic & business purposes:** `chrisgrieser [at] tu-berlin (dot) de`
 - **Technical support:** Please create an issue at the respective GitHub
-  repository ([Explainer what issues
-  are](https://docs.github.com/en/get-started/using-github/communicating-on-github)).
+  repository. ([Explainer: How to submit an issue](https://docs.github.com/en/issues/tracking-your-work-with-issues/using-issues/creating-an-issue#creating-an-issue-from-a-repository)).
 
