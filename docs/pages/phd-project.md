@@ -4,10 +4,9 @@ title: PhD-project
 permalink: /phd-project
 ---
 # PhD-project
-## Working title 
-**Platforms as Infrastructure-based Markets.** How Digital Platforms combine Market 
-and Infrastructural Control to meet the Governance Requirements of Interdependent 
-Innovation
+**Working title**: Platforms as Infrastructure-based Markets. How Digital Platforms 
+combine Market and Infrastructural Control to meet the Governance Requirements of 
+Interdependent Innovation
 
 ## Background
 Academic research on platforms can basically be divided into two areas of study:
