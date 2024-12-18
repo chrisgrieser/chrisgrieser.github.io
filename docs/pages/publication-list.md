@@ -18,6 +18,9 @@ permalink: /publication-list
 
 <!-- LTeX: enabled=false -->
 ## Publications
+- Grieser, C. (2025, in press). Limits and Paradox es of Accelerating Research.
+  A Retrospective on the Attempts to Accelerate Medical Research on COVID-19.
+  Minerva.
 - Grieser, C. (2023). Innovation as Keeping Up. Interdependent Technologies as
   Drivers of the Innovation Society. In: Schulz-Schaeffer, I., Seibt, D.,
   Windeler, A. (eds) Innovationsgesellschaft heute. Springer VS, Wiesbaden. (➡️
