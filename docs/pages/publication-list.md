@@ -16,11 +16,12 @@ permalink: /publication-list
 
 <!-- tocstop -->
 
+<!-- LTeX: enabled=false -->
 ## Publications
 - Grieser, C. (2023). Innovation as Keeping Up. Interdependent Technologies as
   Drivers of the Innovation Society. In: Schulz-Schaeffer, I., Seibt, D.,
-  Windeler, A. (eds) Innovationsgesellschaft heute. Springer VS, Wiesbaden.
-  (➡️ [online](https://doi.org/10.1007/978-3-658-39743-2_4))
+  Windeler, A. (eds) Innovationsgesellschaft heute. Springer VS, Wiesbaden. (➡️
+  [online](https://doi.org/10.1007/978-3-658-39743-2_4))
 - Grieser, C. (2020). Plattformen als infrastrukturzentrierte Märkte. Eine
   Integration von Markt- und Infrastruktur-Perspektiven auf Plattformen,
   illustriert am Beispiel von Solo-Selbstständigkeit im digitalen Kapitalismus.
@@ -35,13 +36,13 @@ permalink: /publication-list
   the sociology of Quantification for Digitalization Research.] SoS Discussion
   Paper 3/2020. ( ➡️
   [online](https://www.sos.tu-berlin.de/menue/discussion_paper/))
-- Grieser, C. & Egbert, S. (2020). Algorithmen = Rankings + x? Impulse der
+- Grieser, C. & Egbert, S. (2020). Algorithmen = Rankings + x? Impulse der
   Soziologie der Quantifizierung für die Digitalisierungsforschung. [Algorithms
   = Rankings + x? Ideas from the Sociology of Quantification for the Research on
   Digitalization] Konferenzpapier, 3. Tagung des Arbeitskreises Digitalisierung
   & Organisation an der TU Berlin (➡️
   [online](https://www.researchgate.net/publication/339926910_Algorithmen_Rankings_x_Impulse_der_Soziologie_der_Quantifizierung_fur_die_Digitalisierungsforschung))
-- Grieser, C. (2019). *The Problem of Collecting Data on Mid-Sized Complete
+- Grieser, C. (2019). *The Problem of Collecting Data on Mid-Sized Complete
   Networks (50 < n < 200) via Questionnaire: A Proposition for Using
   Subgroup-Based Name Generators*. Working Paper, Berlin. (➡️
   [online](https://www.ssoar.info/ssoar/handle/document/61650))
@@ -49,7 +50,7 @@ permalink: /publication-list
   Epistemic Regimes: New Opportunities for Comparative Science Studies*. Working
   Paper TUTS-WP-3-2018, TU Berlin. (➡️
   [online](https://www.ts.tu-berlin.de/fileadmin/i62_tstypo3/TUTS-WP-3-2018_Scientific_Regimes.pdf))
-- Deisner, J. & Grieser, C. (2018). *The Relationship between Openness and
+- Deisner, J. & Grieser, C. (2018). *The Relationship between Openness and
   Closedness in the FabLab. A Differentiated Typology of Possible Relations
   between Institutional Logics*. In: J. Engelschalt, F. Engels, & A. Maibaum
   (Hrsg.), Schafft Wissen – Gemeinsames und geteiltes Wissen in Wissenschaft und
@@ -57,8 +58,13 @@ permalink: /publication-list
   SSOAR. (➡️ [online](https://www.ssoar.info/ssoar/handle/document/58220))
 
 ## Talks
-- "Innovation As Keeping up: How the Necessity to Maintain Compatibility for Interdependent Technologies Fuels the Innovation Imperative" at the 4th ISA Forum, RC23, "273 - The Innovation Imperative", 24th February 2021.
-- "Digitale Räume als technisch geformte Beobachtungskonstellationen" [Digital Spaces as Technologically Shaped Observation Constellations] at the 2nd conference of the working group "Digitalization and Sociological Theory", 4th December 2020.
+- "Innovation As Keeping up: How the Necessity to Maintain Compatibility for
+  Interdependent Technologies Fuels the Innovation Imperative" at the 4th ISA
+  Forum, RC23, "273 - The Innovation Imperative", 24th February 2021.
+- "Digitale Räume als technisch geformte Beobachtungskonstellationen" [Digital
+  Spaces as Technologically Shaped Observation Constellations] at the 2nd
+  conference of the working group "Digitalization and Sociological Theory", 4th
+  December 2020.
 - „Plattformen als Infrastruktur-Dienstleister für Selbstständige“ ["Platforms
   as Infrastructure-Provider for the Self-Employed"] at the national congress of
   the German Sociological Association 2020, 21. September 2020  ➡️  [Report on
@@ -87,6 +93,7 @@ permalink: /publication-list
   between philosophy of science, social theory and methodology] in the
   Colloquium for Methods of Social Research, 25. May 2016 in Berlin
 
+
 ## Academic software
 - Grieser, C. (2024). Qualitative Data Analysis Realized in Obsidian [Computer
   software].
@@ -106,6 +113,7 @@ permalink: /publication-list
 *Other non-academic software I created can be found at [my GitHub
 Profile](https://github.com/chrisgrieser).*
 
+<!-- LTeX: enabled=true -->
 ## Non-academic publications
 - [Interview with me on how I use my Vault/Zettelkasten in Obsidian (YouTube,
   2h, 2022)](https://www.youtube.com/watch?v=DzJOJxDgQKc)
@@ -116,5 +124,3 @@ Profile](https://github.com/chrisgrieser).*
 - [Comprehensive Academic Workflow from Reading to Writing in Markdown
   (2020)]({% post_url 2021-12-20-comprehensive-academic-workflow %}) <!--
   https://jekyllrb.com/docs/liquid/tags/#linking-to-posts -->
-
-
