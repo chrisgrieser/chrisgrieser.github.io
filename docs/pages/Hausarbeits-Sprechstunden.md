@@ -1,9 +1,9 @@
 ---
 layout: default
-title: "Hausarbeits-Sprechstunden Chris"
+title: Hausarbeits-Sprechstunden Chris
 permalink: /hausarbeits-sprechstunden
 ---
-
+<!-- LTeX: enabled=false -->
 # Hausarbeits-Sprechstunden Chris
 
 ## Terminvereinbarung
@@ -18,9 +18,9 @@ schreibt mir und wir vereinbaren individuell einen Termin.
 ## Hinweise
 - **Bearbeitungs-Hinweise:** Bitte beachtet die Hinweise zum Verfassen einer
   Hausarbeit, die im `Seminarplan` zu finden sind.
-- **Abstract**: Bitte schickt mir bis `zwei Tage vor der Sprechstunde` ein
-  kurzes Abstract (Skizze, Gliederung, o.ä.) eurer geplanten Hausarbeit. Dieses
-  muss noch keine fertigen Ideen beinhalten, sondern dient primär zur
-  Vorbereitung der Sprechstunde.
+- **Abstract**: Schickt mir bis `zwei Tage vor der Sprechstunde` ein kurzes
+  Abstract (Skizze, Gliederung, o.ä.) eurer geplanten Hausarbeit. Dieses muss
+  noch keine fertigen Ideen beinhalten, sondern dient primär zur Vorbereitung
+  der Sprechstunde.
 - **Absage:** Falls ihr den Termin nicht wahrnehmen könnt, sagt bitte
   rechtzeitig vorher ab.
