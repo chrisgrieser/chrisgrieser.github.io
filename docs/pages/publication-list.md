@@ -5,8 +5,6 @@ permalink: /publication-list
 ---
 # Publication list
 
-## Table of Contents
-
 <!-- toc -->
 
 - [Publications](#publications)
@@ -16,7 +14,6 @@ permalink: /publication-list
 
 <!-- tocstop -->
 
-<!-- LTeX: enabled=false -->
 ## Publications
 - Grieser, C. (2025, in press). Limits and Paradox es of Accelerating Research.
   A Retrospective on the Attempts to Accelerate Medical Research on COVID-19.
