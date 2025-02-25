@@ -15,9 +15,9 @@ permalink: /publication-list
 <!-- tocstop -->
 
 ## Publications
-- Grieser, C. (2025, in press). Limits and Paradox es of Accelerating Research.
-  A Retrospective on the Attempts to Accelerate Medical Research on COVID-19.
-  Minerva.
+- Grieser, C. (2025). Limits and Paradoxes of Accelerating Research. A
+  Retrospective on the Attempts to Accelerate Medical Research on COVID-19.
+  Minerva. https://doi.org/10.1007/s11024-024-09560-0
 - Grieser, C. (2023). Innovation as Keeping Up. Interdependent Technologies as
   Drivers of the Innovation Society. In: Schulz-Schaeffer, I., Seibt, D.,
   Windeler, A. (eds) Innovationsgesellschaft heute. Springer VS, Wiesbaden. (➡️
@@ -25,7 +25,7 @@ permalink: /publication-list
 - Grieser, C. (2020). Plattformen als infrastrukturzentrierte Märkte. Eine
   Integration von Markt- und Infrastruktur-Perspektiven auf Plattformen,
   illustriert am Beispiel von Solo-Selbstständigkeit im digitalen Kapitalismus.
-  [Platforms as infrastructure-centered markets.Integrating Market- and
+  [Platforms as infrastructure-centered markets. Integrating Market- and
   Infrastructure Perspectives using the example of Self-Employment in Digital
   Capitalism.] Gesellschaft unter Spannung. Verhandlungen des 40. Kongresses der
   Deutschen Gesellschaft Für Soziologie 2020. (➡️
@@ -34,8 +34,7 @@ permalink: /publication-list
   Potenziale der Soziologie der Quantifizierung für die
   Digitalisierungsforschung. [Algorithms as automated rankings. Potentials of
   the sociology of Quantification for Digitalization Research.] SoS Discussion
-  Paper 3/2020. ( ➡️
-  [online](https://www.sos.tu-berlin.de/menue/discussion_paper/))
+  Paper 3/2020. (➡️ [online](https://www.sos.tu-berlin.de/menue/discussion_paper/))
 - Grieser, C. & Egbert, S. (2020). Algorithmen = Rankings + x? Impulse der
   Soziologie der Quantifizierung für die Digitalisierungsforschung. [Algorithms
   = Rankings + x? Ideas from the Sociology of Quantification for the Research on
