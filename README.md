@@ -1,5 +1,5 @@
 # Info
-This repo is the backend of personal website, <https://chris-grieser.de>.
+This repo is the backend of my personal website, <https://chris-grieser.de>.
 My website is hosted via GitHub Pages, with domain and DNS provided by
 [Strato](https://www.strato.de/). 
 
