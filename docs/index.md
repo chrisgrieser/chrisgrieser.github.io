@@ -32,7 +32,6 @@ I am an alpha-tester for [Obsidian](http://obsidian.md) since 2022.
 - [GitHub](https://github.com/chrisgrieser)
 - <a rel="me" href="https://pkm.social/@pseudometa">Mastodon</a><!--https://pkm.social/settings/verification-->
 - [Bluesky](https://bsky.app/profile/pseudometa.bsky.social)
-- [Blog for nvim tips](https://nanotipsforvim.prose.sh/)
 - [Dotfiles](https://github.com/chrisgrieser/.config)
 
 [![GitHub
@@ -42,4 +41,4 @@ stats](https://github-readme-stats.vercel.app/api?username=chrisgrieser&show_ico
 ## Contact
 - **Academic & business purposes:** `chrisgrieser [at] tu-berlin (dot) de`
 - **Technical support:** Please create an issue at the respective GitHub
-  repository. ([Explainer: How to submit an issue](https://docs.github.com/en/issues/tracking-your-work-with-issues/using-issues/creating-an-issue#creating-an-issue-from-a-repository)).
+  repository. ([How to submit an issue](https://docs.github.com/en/issues/tracking-your-work-with-issues/using-issues/creating-an-issue#creating-an-issue-from-a-repository)).
