@@ -94,22 +94,13 @@ permalink: /publication-list
 
 
 ## Academic software
-- Grieser, C. (2025). Most Different Text Selector [Computer software].
-<https://github.com/chrisgrieser/most-different-text-selection>
-- Grieser, C. (2024). Qualitative Data Analysis Realized in Obsidian [Computer
-software].
-<https://github.com/chrisgrieser/obsidian-qualitative-data-analysis>
-- Grieser, C. (2023). PDF Annotation Extractor [Computer software].
-<https://github.com/chrisgrieser/pdf-annotation-extractor-alfred>
-- Grieser, C. (2023). nvim-kickstart-python [Computer software].
-<https://github.com/chrisgrieser/nvim-kickstart-python>
-- Grieser, C. (2023). Simulation of Axelrod's Iterated Prisoner's Dilemma [Computer
-software].
-<https://github.com/chrisgrieser/axelrod-prisoner-dilemma>
-- Grieser, C. (2023). PDF summarizer for Alfred [Computer software].
-<https://github.com/chrisgrieser/pdf-summarizer-alfred>
-- Grieser, C. (2023). Supercharged Citation Picker [Computer software].
-<https://github.com/chrisgrieser/alfred-bibtex-citation-picker>
+- Grieser, C. (2025). Most Different Text Selector [Computer software]. <https://github.com/chrisgrieser/most-different-text-selection>
+- Grieser, C. (2024). Qualitative Data Analysis Realized in Obsidian [Computer software]. <https://github.com/chrisgrieser/obsidian-qualitative-data-analysis>
+- Grieser, C. (2023). PDF Annotation Extractor [Computer software]. <https://github.com/chrisgrieser/pdf-annotation-extractor-alfred>
+- Grieser, C. (2023). nvim-kickstart-python [Computer software]. <https://github.com/chrisgrieser/nvim-kickstart-python>
+- Grieser, C. (2023). Simulation of Axelrod's Iterated Prisoner's Dilemma [Computer software]. <https://github.com/chrisgrieser/axelrod-prisoner-dilemma>
+- Grieser, C. (2023). PDF summarizer for Alfred [Computer software]. <https://github.com/chrisgrieser/pdf-summarizer-alfred>
+- Grieser, C. (2023). Supercharged Citation Picker [Computer software]. <https://github.com/chrisgrieser/alfred-bibtex-citation-picker>
 
 *Other non-academic software I created can be found at [my GitHub
 Profile](https://github.com/chrisgrieser).*
