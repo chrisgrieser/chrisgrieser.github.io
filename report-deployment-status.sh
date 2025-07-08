@@ -14,11 +14,16 @@ timeout_secs=300 # = 5 minutes
 
 #───────────────────────────────────────────────────────────────────────────────
 
+if [[ -z "$GITHUB_TOKEN" ]]; then
+	echo "Missing \$GITHUB_TOKEN"
+	return 1
+fi
+
 current_repo=$(git remote --verbose | head -n1 | cut -d: -f2 | cut -d" " -f1)
 for ((i = 1; i <= timeout_secs; i++)); do
 	sleep 0.9 # assuming ~0.1 seconds per curl request
 	last_run=$(
-		curl --silent -L \
+		curl --silent --location \
 			-H "Accept: application/vnd.github+json" \
 			-H "Authorization: Bearer $GITHUB_TOKEN" \
 			-H "X-GitHub-Api-Version: 2022-11-28" \
