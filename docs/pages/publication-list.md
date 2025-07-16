@@ -97,7 +97,6 @@ permalink: /publication-list
 - Grieser, C. (2025). Most Different Text Selector [Computer software]. <https://github.com/chrisgrieser/most-different-text-selection>
 - Grieser, C. (2024). Qualitative Data Analysis Realized in Obsidian [Computer software]. <https://github.com/chrisgrieser/obsidian-qualitative-data-analysis>
 - Grieser, C. (2023). PDF Annotation Extractor [Computer software]. <https://github.com/chrisgrieser/pdf-annotation-extractor-alfred>
-- Grieser, C. (2023). nvim-kickstart-python [Computer software]. <https://github.com/chrisgrieser/nvim-kickstart-python>
 - Grieser, C. (2023). Simulation of Axelrod's Iterated Prisoner's Dilemma [Computer software]. <https://github.com/chrisgrieser/axelrod-prisoner-dilemma>
 - Grieser, C. (2023). PDF summarizer for Alfred [Computer software]. <https://github.com/chrisgrieser/pdf-summarizer-alfred>
 - Grieser, C. (2023). Supercharged Citation Picker [Computer software]. <https://github.com/chrisgrieser/alfred-bibtex-citation-picker>
@@ -105,14 +104,11 @@ permalink: /publication-list
 *Other non-academic software I created can be found at [my GitHub
 Profile](https://github.com/chrisgrieser).*
 
-<!-- LTeX: enabled=true -->
 ## Non-academic publications
 - [Interview with me on how I use my Vault/Zettelkasten in Obsidian (YouTube,
   2h, 2022)](https://www.youtube.com/watch?v=DzJOJxDgQKc)
 - [One-Size-Fits-All? How to Take Big Notes and How to Take Small Note
   (2022)](https://www.obsidianroundup.org/one-size-fits-all-how-to-take-big-notes-and-how-to-take-small-notes/)
-- [Nano Tips for Vim](https://nanotipsforvim.prose.sh/) (Blog on Vim Usage
-  Tricks)
 - [Comprehensive Academic Workflow from Reading to Writing in Markdown
   (2020)]({% post_url 2021-12-20-comprehensive-academic-workflow %}) <!--
   https://jekyllrb.com/docs/liquid/tags/#linking-to-posts -->
