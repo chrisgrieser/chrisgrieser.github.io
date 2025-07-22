@@ -16,7 +16,7 @@ permalink: /publication-list
 
 ## Publications
 - Grieser, C. (2025, in publication). Finding Complex Information in a Large
-  Dataset: AI as Generator of Linguistic Markers. In A. Simons, A. Wüthrich, M.
+  Dataset: LLMs as Generator of Linguistic Markers. In A. Simons, A. Wüthrich, M.
   Zichert, & G. Graßhoff (Eds.), Large Language Models for the History,
   Philosophy, and Sociology of Science. Reflections from a Field in Motion (pp.
   xx–xx). transcript.
