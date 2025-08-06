@@ -18,7 +18,7 @@
 
 ## Learnings
 - The file [CNAME](./docs/CNAME) contains the domain name.
-- `apex domain` is a domain without a leading `www`.
+- An "apex domain" is a domain without a leading `www`.
 - Some website data (DNS, SSL encryption) can be inspected via the connection
   icon in the address bar of a browser.
 
