@@ -18,7 +18,7 @@
 
 ## Learnings
 - The file [CNAME](./docs/CNAME) contains the domain name.
-- An "apex domain" is a domain without a leading `www`.
+- An "apex domain" is a domain without the leading `www`.
 - Some website data (DNS, SSL encryption) can be inspected via the connection
   icon in the address bar of a browser.
 
@@ -39,7 +39,7 @@ this part is the realm of DNS
   (`chris-grieser.de/subsite`).
 - My package at Strato includes a [basic SSL
   certificate](https://www.strato.de/faq/domains/wie-kann-ich-mein-kostenfreies-strato-ssl-zertifikat-verwenden/).
-  It does only offer encryption for the main domain, not any subdomains.
+  It does only offer encryption for the main domain, but not subdomains.
   However, due to using GitHub pages, it's the site uses the certificate from
   "Let's encrypt" (the provider used by GitHub).
 
