@@ -33,10 +33,6 @@ I am an alpha-tester for [Obsidian](http://obsidian.md) since 2022.
 - <a rel="me" href="https://pkm.social/@pseudometa">Mastodon</a><!--https://pkm.social/settings/verification-->
 - [Dotfiles](https://github.com/chrisgrieser/.config)
 
-[![GitHub
-stats](https://github-readme-stats.vercel.app/api?username=chrisgrieser&show_icons=true&theme=dracula&show=prs_merged_percentage,reviews)](https://github.com/chrisgrieser/)
-<!-- https://github.com/anuraghazra/github-readme-stats#github-stats-card -->
-
 ## Contact
 - **Academic & business purposes:** `chrisgrieser [at] tu-berlin (dot) de`
 - **Technical support:** Please create an issue at the respective GitHub
