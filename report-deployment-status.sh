@@ -14,6 +14,7 @@ timeout_secs=300 # = 5 minutes
 
 #───────────────────────────────────────────────────────────────────────────────
 
+[[ -z "$GITHUB_TOKEN" ]] && _export_github_token # run func from `.zshenv`
 if [[ -z "$GITHUB_TOKEN" ]]; then
 	echo "Missing \$GITHUB_TOKEN"
 	return 1
