@@ -12,7 +12,8 @@ The project investigates how the governance of digital platforms is linked with
 the challenge of innovating upon interdependent technologies. My empirical case
 is the development of apps for iOS and Android. [Read more.](/phd-project)
 
-- [Publications List](/publication-list)
+- [Publication list](/publication-list)
+- [PhD project](/phd-project)
 - [Website at TU Berlin](https://www.tu.berlin/en/sos/about/team/christopher-grieser-ma)
 - [ORCID](https://orcid.org/0000-0002-0767-9496)
 - [ResearchGate](https://www.researchgate.net/profile/Christopher-Grieser)
@@ -33,8 +34,7 @@ I am an alpha-tester for [Obsidian](http://obsidian.md) since 2022.
 - <a rel="me" href="https://pkm.social/@pseudometa">Mastodon</a><!--https://pkm.social/settings/verification-->
 - [Dotfiles](https://github.com/chrisgrieser/.config)
 
-![GitHub Card](https://githubcard.com/chrisgrieser.svg?d=eM90fAZT)
-<!-- https://github.com/anuraghazra/github-readme-stats#github-stats-card -->
+![GitHub card](https://githubcard.com/chrisgrieser.svg?d=eM90fAZT)
 
 ## Contact
 - **Academic & business purposes:** `chrisgrieser [at] tu-berlin (dot) de`
