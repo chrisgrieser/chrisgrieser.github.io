@@ -5,14 +5,14 @@
 - [Learnings](#learnings)
 - [Strato: Domain and DNS provider](#strato-domain-and-dns-provider)
 - [Setting up the custom domain for GitHub Pages](#setting-up-the-custom-domain-for-github-pages)
-  * [A & AAAA records](#a--aaaa-records)
-  * [CNAME record](#cname-record)
-  * [Domain verification (TXT record)](#domain-verification-txt-record)
+    - [A & AAAA records](#a--aaaa-records)
+    - [CNAME record](#cname-record)
+    - [Domain verification (TXT record)](#domain-verification-txt-record)
 - [Content for GitHub Pages](#content-for-github-pages)
 - [Jekyll Theme](#jekyll-theme)
 - [Previous website setup](#previous-website-setup)
-  * [How it worked](#how-it-worked)
-  * [Past issues with Fruition](#past-issues-with-fruition)
+    - [How it worked](#how-it-worked)
+    - [Past issues with Fruition](#past-issues-with-fruition)
 
 <!-- tocstop -->
 
@@ -73,20 +73,20 @@ chris-grieser.de.       92      IN      AAAA    2606:50c0:8000::153
 ### CNAME record
 - At the Strato dashboard, set the CNAME for the domain, pointing
   `www.chris-grieser.de` to `chrisgrieser.github.io`.
-- Having both A/AAAA records and the CNAME record set up results in passing
+- Having both `A/AAAA` records and the `CNAME` record set up results in passing
   GitHub's DNS check (at the page settings).
 
 > [!TIP]
 > GitHub uses a `CNAME` file to store the custom domain name in the repository.
-> The "CNAME" mentioned in the GitHub documentation, however, refers to the
-> CNAME *record* at the DNS provider.
+> The `"CNAME"` mentioned in the GitHub documentation, however, refers to the
+> `CNAME` *record* at the DNS provider.
 
 ### Domain verification (TXT record)
 - [GitHub docs: Verifying a custom domain](https://docs.github.com/en/pages/configuring-a-custom-domain-for-your-github-pages-site/verifying-your-custom-domain-for-github-pages#verifying-a-domain-for-your-user-site)
-	* Note: the `Pages` settings mentioned in the docs refer to the settings in
-	  the GitHub *profile*, not the `Pages` settings of the `*.github.io`
-	  *repository*. (That is, the verification is done here:
-	  <https://github.com/settings/pages>.)
+     Note: the `Pages` settings mentioned in the docs refer to the settings in
+      the GitHub *profile*, not the `Pages` settings of the `*.github.io`
+      *repository*. (That is, the verification is done here:
+      <https://github.com/settings/pages>.)
 - At the Strato dashboard, set the TXT for the domain, pointing
   `_github-pages-challenge-chrisgrieser.chris-grieser.de` to the `{value}`
   listed on the page.
@@ -116,7 +116,8 @@ theme: jekyll-theme-modernist
 
 ```yaml
 # Remote themes, allowing any Jekyll theme: https://jekyllrb.com/docs/themes/
-plugins: [jekyll-remote-theme]
+plugins:
+  - jekyll-remote-theme
 remote_theme: pages-themes/modernist@v0.2.0
 ```
 

@@ -3,17 +3,18 @@ layout: default
 title: PhD-project
 permalink: /phd-project
 ---
+
 # PhD-project
-**Working title**: Platforms as Infrastructure-based Markets. How Digital Platforms 
-combine Market and Infrastructural Control to meet the Governance Requirements of 
-Interdependent Innovation
+**Working title**: Platforms as Infrastructure-based Markets. How Digital
+Platforms combine Market and Infrastructural Control to meet the Governance
+Requirements of Interdependent Innovation
 
 ## Background
 Academic research on platforms can basically be divided into two areas of study:
-On the one hand, platforms are seen as *technical infrastructures* that provide
+On the one hand, platforms are seen as *technical infrastructures* that provide
 core functionality for complimentary products, e.g. a mobile operating system
 providing camera functionality for a wide range of apps. On the other hand,
-platforms are seen as *digital marketplaces* that are controlled by private
+platforms are seen as *digital marketplaces* that are controlled by private
 firms, e.g., the App Store where the platform operator controls which developers
 get access and how the apps are ranked. The conceptual distinction, however,
 makes little sense in face of the empirical trend of hybrid platforms that are

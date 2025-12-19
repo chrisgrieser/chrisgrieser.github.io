@@ -1,35 +1,33 @@
 ---
 layout: default
 title: Comprehensive Academic Workflow from Reading to Writing in Markdown
-date: '2021-12-20 15:00:00 +0000'
+date: 2021-12-20 15:00:00 +0000
 tags:
   - academic-workflow
 ---
+
 # Comprehensive Academic Workflow from Reading to Writing in Markdown
 *Last update: 20. December 2021*
 
 ## Table of Contents
-
-<!-- toc -->
-
+<!--toc:start-->
 - [Introduction](#introduction)
 - [The Academic Workflow from Reading to Writing](#the-academic-workflow-from-reading-to-writing)
-  * [The generalized version](#the-generalized-version)
-  * [The simple Word-Zotero version](#the-simple-word-zotero-version)
-  * [The Zotero-ZotFile-BetterBibTeX-MDNotes-Obsidian-Pandoc version](#the-zotero-zotfile-betterbibtex-mdnotes-obsidian-pandoc-version)
-  * [Decomposing the workflow into subtasks](#decomposing-the-workflow-into-subtasks)
+    - [The generalized version](#the-generalized-version)
+    - [The simple Word-Zotero version](#the-simple-word-zotero-version)
+    - [The Zotero-ZotFile-BetterBibTeX-MDNotes-Obsidian-Pandoc version](#the-zotero-zotfile-betterbibtex-mdnotes-obsidian-pandoc-version)
+    - [Decomposing the workflow into subtasks](#decomposing-the-workflow-into-subtasks)
 - [Overview: tools for the individual sub-tasks](#overview-tools-for-the-individual-sub-tasks)
-  * [1. Organizing references](#1-organizing-references)
-  * [2. Saving References](#2-saving-references)
-  * [3. Linking PDFs, Reference Entries, and Citations](#3-linking-pdfs-reference-entries-and-citations)
-  * [4. Extracting Annotations/Notes From PDFs](#4-extracting-annotationsnotes-from-pdfs)
-  * [5. Citation Picker for Automatic Citations](#5-citation-picker-for-automatic-citations)
-  * [6. Bibliography Creation](#6-bibliography-creation)
-  * [7. Compiling Markdown with Citations (Pandoc)](#7-compiling-markdown-with-citations-pandoc)
-  * [8. Bonus: organizing longform writing](#8-bonus-organizing-longform-writing)
-  * [My own Implementation of the Workflow](#my-own-implementation-of-the-workflow)
-
-<!-- tocstop -->
+    - [1. Organizing references](#1-organizing-references)
+    - [2. Saving References](#2-saving-references)
+    - [3. Linking PDFs, Reference Entries, and Citations](#3-linking-pdfs-reference-entries-and-citations)
+    - [4. Extracting Annotations/Notes From PDFs](#4-extracting-annotationsnotes-from-pdfs)
+    - [5. Citation Picker for Automatic Citations](#5-citation-picker-for-automatic-citations)
+    - [6. Bibliography Creation](#6-bibliography-creation)
+    - [7. Compiling Markdown with Citations (Pandoc)](#7-compiling-markdown-with-citations-pandoc)
+    - [8. Bonus: organizing longform writing](#8-bonus-organizing-longform-writing)
+    - [My own Implementation of the Workflow](#my-own-implementation-of-the-workflow)
+<!--toc:end-->
 
 ## Introduction
 This is an overview over a comprehensive academic workflow, from getting
@@ -63,8 +61,8 @@ together provide comparable features.
 This basic academic workflow looks something like this: You find an article on a
 website, and save it in your reference library (i.e., reference manager). The
 library entries should be linked to the PDF file of the paper, from which we
-want to extract notes to our knowledge base (i.e., Obsidian). Ideally, we want to
-keep the link between library entry, knowledge base, and PDF.
+want to extract notes to our knowledge base (i.e., Obsidian). Ideally, we want
+to keep the link between library entry, knowledge base, and PDF.
 
 Later on, you use your knowledge base to write an article of your own. When
 you cite a paper you have read, you basically create a link between the Draft
@@ -198,7 +196,7 @@ The goal would be to find a set of tools that works with little friction, but
 also does not lock you into one ecosystem, as any lock-in would leave you with
 sub-optimal solution to certain subtasks.
 
-*The BiBTeX Library is the central point of interaction – not Zotero.
+*The BibTeX Library is the central point of interaction – not Zotero.
 
 The way I see it, the generalized workflow from reading to writing includes the
 following subtasks:
@@ -272,11 +270,11 @@ ones that can be used with the BibTeX format.
   stands out as a feature rich extension for Chrome and chromium-based browsers.
   Generates high-quality BibTeX-Entries which can be copypasted into most
   reference managers (not only the ones mentioned above).
-	* Yes, a less known feature of many Reference managers is that you can just
-	  copypaste [BibTeX-text](https://www.unf.edu/~wkloster/latex/bib.html)
-	  into the reference manager to generate the a proper entry. :)
-	* There are numerous other small browser extensions, but the quality of
-	  BibTeX-Entries they provide is rather low compared to *Bib It Now!*.
+    - Yes, a less known feature of many Reference managers is that you can just
+      copypaste [BibTeX-text](https://www.unf.edu/~wkloster/latex/bib.html)
+      into the reference manager to generate the a proper entry. :)
+    - There are numerous other small browser extensions, but the quality of
+      BibTeX-Entries they provide is rather low compared to *Bib It Now!*.
 - The [Zotero Connector](https://www.zotero.org/download/connectors),
   available for different browsers, but obviously only working with Zotero. Does
   a pretty good job.
@@ -524,9 +522,9 @@ pandoc "path/to/input.md" -o "path/to/input.docx" --citeproc --bibliography "pat
 ### 8. Bonus: organizing longform writing
 
 Not strictly part of the workflow discussed here, but a much related issue is
-the question of how to organize longform writing process itself. The basic approach
-("dump everything into one document") is of course unsatisfactory. However,
-there are several very different solutions to this:
+the question of how to organize longform writing process itself. The basic
+approach ("dump everything into one document") is of course unsatisfactory.
+However, there are several very different solutions to this:
 
 - The most popular solution is
   [Scrivener](https://www.literatureandlatte.com/scrivener/overview), an app
@@ -547,22 +545,22 @@ there are several very different solutions to this:
   and re-arranging functionality that is similar to Scrivener. It is, however,
   still a rather new solution, and some quite essential features like having
   sub-chapters are still missing.
-	* When compiling with the Longform plugin, footnotes are not considered
-	  (yet), with the result that they are scattered all over the place. You can
-	  use the [Linter Plugin](https://github.com/platers/obsidian-linter) to
-	  move all of them to the bottom & also re-index them.
-	* Also relevant to people deciding to write Longform in Obsidian might be
-	  the [Obsidian Link
-	  Converter](https://github.com/ozntel/obsidian-link-converter) for
-	  converting Image Links, as Pandoc is not able to parse Obsidian's Image
-	  Wikilinks (`![[ ]]`).
-	* You can use [this lua
-	  filter](https://gist.github.com/maybemkl/d9be15bcabadaa19d2ca50c87b59a92e)
-	  to remove wikilinks from a Markdown document during conversion.
-	* For across-note-wordcounts, you can use my [Word Count
-	  Dashboard](https://gist.github.com/chrisgrieser/ac16a80cdd9e8e0e84606cc24e35ad99#file-word-count-dashboard-md)
-	  which uses [Dataview](https://github.com/blacksmithgu/obsidian-dataview)
-	  the plugin.
+    - When compiling with the Longform plugin, footnotes are not considered
+      (yet), with the result that they are scattered all over the place. You can
+      use the [Linter Plugin](https://github.com/platers/obsidian-linter) to
+      move all of them to the bottom & also re-index them.
+    - Also relevant to people deciding to write Longform in Obsidian might be
+      the [Obsidian Link
+      Converter](https://github.com/ozntel/obsidian-link-converter) for
+      converting Image Links, as Pandoc is not able to parse Obsidian's Image
+      Wikilinks (`![[ ]]`).
+    - You can use [this lua
+      filter](https://gist.github.com/maybemkl/d9be15bcabadaa19d2ca50c87b59a92e)
+      to remove wikilinks from a Markdown document during conversion.
+    - For across-note-wordcounts, you can use my [Word Count
+      Dashboard](https://gist.github.com/chrisgrieser/ac16a80cdd9e8e0e84606cc24e35ad99#file-word-count-dashboard-md)
+      which uses [Dataview](https://github.com/blacksmithgu/obsidian-dataview)
+      the plugin.
 
 ### My own Implementation of the Workflow
 This leaves me to conclude with one last mermaid diagram, depicting my very own
@@ -570,7 +568,3 @@ workflow. As all the tools used have been mentioned in the sections before,
 little additional explanation should be necessary.
 
 ![my own workflow](https://i.imgur.com/qAMNlr7.png){: width="50%" }
-
-
-
-

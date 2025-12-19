@@ -1,6 +1,7 @@
 ---
 title: Chris Grieser – Website
 ---
+
 ## Academic research in sociology
 **Research areas**
 - Digital economy
@@ -31,6 +32,7 @@ store](https://alfred.app/workflows/chrisgrieser/reddit-browser/). In addition,
 I am an alpha-tester for [Obsidian](http://obsidian.md) since 2022.
 
 - [GitHub](https://github.com/chrisgrieser)
+<!-- rumdl-disable-next-line MD033 -->
 - <a rel="me" href="https://pkm.social/@pseudometa">Mastodon</a><!--https://pkm.social/settings/verification-->
 - [Dotfiles](https://github.com/chrisgrieser/.config)
 

@@ -3,7 +3,8 @@ layout: default
 title: Sitemap
 permalink: /sitemap
 ---
-<!-- https://jekyllrb.com/docs/posts/#displaying-an-index-of-posts --> 
+<!-- https://jekyllrb.com/docs/posts/#displaying-an-index-of-posts -->
+<!-- rumdl-disable MD033 -->
 
 # Sitemap
 

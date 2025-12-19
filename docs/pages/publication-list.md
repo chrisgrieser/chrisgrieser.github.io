@@ -3,26 +3,25 @@ layout: default
 title: Publication list
 permalink: /publication-list
 ---
+
 # Publication list
 
-<!-- toc -->
-
+<!--toc:start-->
 - [Publications](#publications)
 - [Talks](#talks)
 - [Academic software](#academic-software)
-- [Non-academic publications](#non-academic-publications)
-
-<!-- tocstop -->
+- [Nonacademic publications](#nonacademic-publications)
+<!--toc:end-->
 
 ## Publications
 - Grieser, C. (2025, in publication). Finding Complex Information in a Large
-  Dataset: LLMs as Generator of Linguistic Markers. In A. Simons, A. Wüthrich, M.
-  Zichert, & G. Graßhoff (Eds.), Large Language Models for the History,
+  Dataset: LLMs as Generator of Linguistic Markers. In A. Simons, A. Wüthrich,
+  M. Zichert, & G. Graßhoff (Eds.), Large Language Models for the History,
   Philosophy, and Sociology of Science. Reflections from a Field in Motion (pp.
   xx–xx). transcript.
 - Grieser, C. (2025). Limits and Paradoxes of Accelerating Research. A
   Retrospective on the Attempts to Accelerate Medical Research on COVID-19.
-  Minerva. https://doi.org/10.1007/s11024-024-09560-0
+  Minerva. <https://doi.org/10.1007/s11024-024-09560-0>
 - Grieser, C. (2023). Innovation as Keeping Up. Interdependent Technologies as
   Drivers of the Innovation Society. In: Schulz-Schaeffer, I., Seibt, D.,
   Windeler, A. (eds) Innovationsgesellschaft heute. Springer VS, Wiesbaden. (➡️
@@ -98,19 +97,26 @@ permalink: /publication-list
   between philosophy of science, social theory and methodology] in the
   Colloquium for Methods of Social Research, 25. May 2016 in Berlin
 
-
 ## Academic software
-- Grieser, C. (2025). Most Different Text Selector [Computer software]. <https://github.com/chrisgrieser/most-different-text-selection>
-- Grieser, C. (2024). Qualitative Data Analysis Realized in Obsidian [Computer software]. <https://github.com/chrisgrieser/obsidian-qualitative-data-analysis>
-- Grieser, C. (2023). PDF Annotation Extractor [Computer software]. <https://github.com/chrisgrieser/pdf-annotation-extractor-alfred>
-- Grieser, C. (2023). Simulation of Axelrod's Iterated Prisoner's Dilemma [Computer software]. <https://github.com/chrisgrieser/axelrod-prisoner-dilemma>
-- Grieser, C. (2023). PDF summarizer for Alfred [Computer software]. <https://github.com/chrisgrieser/pdf-summarizer-alfred>
-- Grieser, C. (2023). Supercharged Citation Picker [Computer software]. <https://github.com/chrisgrieser/alfred-bibtex-citation-picker>
+- Grieser, C. (2025). Most Different Text Selector [Computer software].
+  <https://github.com/chrisgrieser/most-different-text-selection>
+- Grieser, C. (2024). Qualitative Data Analysis Realized in Obsidian
+  [Computer software].
+  <https://github.com/chrisgrieser/obsidian-qualitative-data-analysis>
+- Grieser, C. (2023). PDF Annotation Extractor [Computer software].
+  <https://github.com/chrisgrieser/pdf-annotation-extractor-alfred>
+- Grieser, C. (2023). Simulation of Axelrod's Iterated Prisoner's Dilemma
+  [Computer software].
+  <https://github.com/chrisgrieser/axelrod-prisoner-dilemma>
+- Grieser, C. (2023). PDF summarizer for Alfred [Computer software].
+  <https://github.com/chrisgrieser/pdf-summarizer-alfred>
+- Grieser, C. (2023). Supercharged Citation Picker [Computer software].
+  <https://github.com/chrisgrieser/alfred-bibtex-citation-picker>
 
-*Other non-academic software I created can be found at [my GitHub
+*Other nonacademic software I created can be found at [my GitHub
 Profile](https://github.com/chrisgrieser).*
 
-## Non-academic publications
+## Nonacademic publications
 - [Interview with me on how I use my Vault/Zettelkasten in Obsidian (YouTube,
   2h, 2022)](https://www.youtube.com/watch?v=DzJOJxDgQKc)
 - [One-Size-Fits-All? How to Take Big Notes and How to Take Small Note
