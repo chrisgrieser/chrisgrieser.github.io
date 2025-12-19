@@ -30,7 +30,7 @@ this part is the realm of DNS
                                 this part is all up to the server
 ```
 
-## Strato: Domain and DNS provider
+## Strato: domain and DNS provider
 - Domain: <https://chris-grieser.de/>
 - bought via [Strato](https://www.strato.de/apps/CustomerService)
 - Allows up to 10 subdomains, however due to Strato only allowing one `A` and
@@ -43,7 +43,7 @@ this part is the realm of DNS
   However, due to using GitHub pages, it's the site uses the certificate from
   "Let's encrypt" (the provider used by GitHub).
 
-## Setting up the custom domain for GitHub Pages
+## Setting up the custom domain for GitHub pages
 - [GitHub Pages docs: Quickstart](https://docs.github.com/en/pages/quickstart)
 - [GitHub Pages docs: Manage custom
   domain](https://docs.github.com/en/pages/configuring-a-custom-domain-for-your-github-pages-site/managing-a-custom-domain-for-your-github-pages-site)
@@ -99,14 +99,14 @@ dig _github-pages-challenge-chrisgrieser.chris-grieser.de +nostats +nocomments +
 _github-pages-challenge-chrisgrieser.chris-grieser.de. 150 IN TXT "{value}"
 ```
 
-## Content for GitHub Pages
+## Content for GitHub pages
 - [Setting title and
   description](https://docs.github.com/en/pages/quickstart#changing-the-title-and-description)
 - [Adding
   content](https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/adding-content-to-your-github-pages-site-using-jekyll)
 - [Jekyll docs](https://jekyllrb.com/docs/front-matter/)
 
-## Jekyll Theme
+## Jekyll theme
 Are set in the [`_config.yml`](./docs/_config.yml) file.
 
 ```yaml
@@ -133,6 +133,6 @@ Components:
 
 I followed the instructions on the Fruition website.
 
-### Past issues with Fruition
+### Past issues with fruition
 - ["Issue with your iOS app" error · Issue #55](https://github.com/stephenou/fruitionsite/issues/55#issuecomment-1978266460)
 - [Doesn't the script work anymore? · Issue #287](https://github.com/stephenou/fruitionsite/issues/287)

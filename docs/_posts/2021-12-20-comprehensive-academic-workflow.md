@@ -6,10 +6,10 @@ tags:
   - academic-workflow
 ---
 
-# Comprehensive Academic Workflow from Reading to Writing in Markdown
+# Comprehensive academic workflow from reading to writing in markdown
 *Last update: 20. December 2021*
 
-## Table of Contents
+## Table of contents
 <!--toc:start-->
 - [Introduction](#introduction)
 - [The Academic Workflow from Reading to Writing](#the-academic-workflow-from-reading-to-writing)
@@ -55,7 +55,7 @@ discuss why I do not use Zotero for it.(Disclaimer: I haven't used Zotero 6.) I
 will end with an extensive overview of several tools (apps, plugins) that
 together provide comparable features.
 
-## The Academic Workflow from Reading to Writing
+## The academic workflow from reading to writing
 
 ### The generalized version
 This basic academic workflow looks something like this: You find an article on a
@@ -224,7 +224,7 @@ get far better results when customizing the tool set to their own individual
 needs anyway. For those interested, I will conclude this post with a brief
 outline of my own workflow.
 
-### 1. Organizing references
+### 1. organizing references
 Reference managers are the most straightforward part, since basically all
 researchers should already be familiar with them. For this reason, I will not
 repeat the overviews of reference management apps already done elsewhere, but
@@ -261,7 +261,7 @@ Note that both, `BibDesk` and `JabRef` can automatically rename and move PDFs.
 This means either of them are basically equivalent to `Zotero + BetterBibTex +
 Zotfile`.
 
-### 2. Saving References
+### 2. saving references
 There are also tons of other solutions, but again, I will limit the list to the
 ones that can be used with the BibTeX format.
 
@@ -292,10 +292,10 @@ ones that can be used with the BibTeX format.
 curl -sLH "Accept: application/x-bibtex" {{some-doi-url}}
 ```
 
-### 3. Linking PDFs, Reference Entries, and Citations
+### 3. linking PDFs, reference entries, and citations
 The *simple* solution for this is to simply use `author & year` manually. The
 *proper* solution to avoid complications (e.g. multiple publications by the same
-author in the same year), is to either use  some sort of hyperlink, or to use a
+author in the same year), is to either use some sort of hyperlink, or to use a
 unique identifier like the citekey.
 
 - MDnotes+Zotfile use the Zotero [URI
@@ -317,7 +317,7 @@ unique identifier like the citekey.
   ZotFile), you can also prepend citekeys to PDF filenames, ensuring in a very
   future-proof way that you can always associate a citations with a PDF.
 
-### 4. Extracting Annotations/Notes From PDFs
+### 4. extracting Annotations/Notes from PDFs
 As this step does not require the BibTeX-format, there are far more options
 here. The only requirement for the apps and plugins listed below was that they
 can export the annotations *as Markdown*.
@@ -354,7 +354,7 @@ can export the annotations *as Markdown*.
   subscription-based service, and also are rather used for eBooks or Kindle
   Book, rather than PDFs.
 - [Memex](https://getmemex.com/) and [Hypothes.is](http://hypothes.is) are
-  free annotation extractors, that mostly focus on annotating the web.  [There
+  free annotation extractors, that mostly focus on annotating the web. [There
   is a step-by-step-guide for Readwise and
   Hypothes.is](https://www.craft.do/s/3wWPrf456Lip8F).
 - [Highlighted](https://highlighted.app/), an iOS only App which is used to
@@ -368,7 +368,7 @@ can export the annotations *as Markdown*.
 - [PDF Annotation
   Extractor](https://github.com/chrisgrieser/pdf-annotation-extractor-alfred) a
   workflow for the launcher App Alfred. It's basically a GUI for pdfannots with
-  many automation and formatting options.  And it has Obsidian integration and
+  many automation and formatting options. And it has Obsidian integration and
   builtin prepending of a YAML-Header. And I love the fact that it is can merge
   annotations that span across pages and that it is only one-click from the PDF
   to the extracted annotations in Obsidian (Disclaimer: It's developed by me.
@@ -389,7 +389,7 @@ can export the annotations *as Markdown*.
 - [Databyss](https://databyss.org/) a academic Word Processor & Note Taking app
   which is also able to extract annotations
 
-### 5. Citation Picker for Automatic Citations
+### 5. citation picker for automatic citations
 Citation Pickers should be compared based on two criteria 1. *from* which
 library format (Zotero, BibTeX/`.bib`, etc.) you can call the picker, and 2.
 *into* which app you can insert the citations.
@@ -436,7 +436,7 @@ library format (Zotero, BibTeX/`.bib`, etc.) you can call the picker, and 2.
 http://127.0.0.1:23119/better-bibtex/cayw
 ```
 
-### 6. Bibliography Creation
+### 6. bibliography creation
 The options here are fairly limited, since the only method of getting citations
 from a markdown document into a compiled Word or PDF file is
 [Pandoc](https://pandoc.org/) – the alternative being the Word processor plugins
@@ -475,7 +475,7 @@ use of this approach makes it too tempting to not at least use it for
 one-off-citations for which you are *certain* that you will only need them for
 one paper.
 
-### 7. Compiling Markdown with Citations (Pandoc)
+### 7. compiling markdown with citations (Pandoc)
 As mentioned before, there is no way around Pandoc for compiling Markdown
 documents with citations. There are, however, multiple methods of actually using
 Pandoc, many of which are more user-friendly than using the Terminal.
@@ -519,7 +519,7 @@ pandoc "path/to/input.md" -o "path/to/input.docx" --citeproc --bibliography "pat
   tools](https://github.com/jgm/pandoc/wiki/Pandoc-Extras) for using Pandoc more
   conveniently.
 
-### 8. Bonus: organizing longform writing
+### 8. bonus: organizing longform writing
 
 Not strictly part of the workflow discussed here, but a much related issue is
 the question of how to organize longform writing process itself. The basic
@@ -562,7 +562,7 @@ However, there are several very different solutions to this:
       which uses [Dataview](https://github.com/blacksmithgu/obsidian-dataview)
       the plugin.
 
-### My own Implementation of the Workflow
+### My own implementation of the workflow
 This leaves me to conclude with one last mermaid diagram, depicting my very own
 workflow. As all the tools used have been mentioned in the sections before,
 little additional explanation should be necessary.

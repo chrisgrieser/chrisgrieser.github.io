@@ -71,7 +71,7 @@ permalink: /publication-list
   December 2020.
 - „Plattformen als Infrastruktur-Dienstleister für Selbstständige“ ["Platforms
   as Infrastructure-Provider for the Self-Employed"] at the national congress of
-  the German Sociological Association 2020, 21. September 2020  ➡️  [Report on
+  the German Sociological Association 2020, 21. September 2020 ➡️ [Report on
   the talk at the Blog of the German Sociological Association
   (German)](http://blog.soziologie.de/2020/09/ad-hoc-gruppe-selbstaendiger-erwerb-im-digitalen-kapitalismus-und-seine-einbettung-in-markt-haushalt-und-kultur-am-21-9-2020/)
 - „Algorithmen = Rankings + x? Impulse der Soziologie der Quantifizierung für
