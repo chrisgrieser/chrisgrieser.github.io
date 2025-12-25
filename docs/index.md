@@ -1,6 +1,7 @@
 ---
 title: Chris Grieser – Website
 ---
+<!-- rumdl-disable MD036 -->
 
 ## Academic research in sociology
 **Research areas**
@@ -8,7 +9,7 @@ title: Chris Grieser – Website
 - Sociology of Technology, Innovation & Science
 - Qualitative Methods
 
-**PhD-project**  
+**PhD-project**
 The project investigates how the governance of digital platforms is linked with
 the challenge of innovating upon interdependent technologies. My empirical case
 is the development of apps for iOS and Android. [Read more.](/phd-project)
