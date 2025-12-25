@@ -1,3 +1,14 @@
+# too many German words
 [files]
-extend-exclude = ["publication-list.md"]  # too many German words
+extend-exclude = ["publication-list.md"]
+
+# ignore these words, since they are common in German
+[default.extend-words]
+als = "als"
+ist = "ist"
+ein = "ein"
+oder = "oder"
+vor = "vor"
+sie = "sie"
+habe = "habe"
 
