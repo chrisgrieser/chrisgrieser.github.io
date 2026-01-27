@@ -2,8 +2,8 @@
 title: Chris Grieser – Website
 ---
 
-## Academic research in sociology
 <!-- rumdl-disable MD036 -->
+## Academic research in sociology
 **Research areas**
 - Digital economy
 - Sociology of Technology, Innovation & Science
@@ -24,10 +24,8 @@ is the development of apps for iOS and Android. [Read more.](/phd-project)
 
 ## Software development
 I am also a self-taught software developer and have created various plugins for
-[Neovim](https://dotfyle.com/chrisgrieser),
-[Obsidian](https://obsidian.md/plugins?search=Chris%20Grieser), and
-[Alfred](https://alfred.app/workflows/chrisgrieser/), including [an
-award-winning Obsidian theme](https://github.com/chrisgrieser/shimmering-focus)
+[Neovim](https://dotfyle.com/chrisgrieser), [Obsidian](https://obsidian.md/plugins?search=Chris%20Grieser), and
+[Alfred](https://alfred.app/workflows/chrisgrieser/), including [an award-winning Obsidian theme](https://github.com/chrisgrieser/shimmering-focus)
 and [an Alfred plugin featured in the official plugin
 store](https://alfred.app/workflows/chrisgrieser/reddit-browser/). In addition,
 I am an alpha-tester for [Obsidian](http://obsidian.md) since 2022.
