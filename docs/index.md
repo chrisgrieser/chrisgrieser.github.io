@@ -1,9 +1,9 @@
 ---
 title: Chris Grieser – Website
 ---
-<!-- rumdl-disable MD036 -->
 
 ## Academic research in sociology
+<!-- rumdl-disable MD036 -->
 **Research areas**
 - Digital economy
 - Sociology of Technology, Innovation & Science
@@ -40,6 +40,7 @@ I am an alpha-tester for [Obsidian](http://obsidian.md) since 2022.
 ![GitHub card](https://githubcard.com/chrisgrieser.svg?d=eM90fAZT)
 
 ## Contact
-- **Academic & business purposes:** `chrisgrieser [at] tu-berlin (dot) de`
-- **Technical support:** Please create an issue at the respective GitHub
-  repository. ([How to submit an issue](https://docs.github.com/en/issues/tracking-your-work-with-issues/using-issues/creating-an-issue#creating-an-issue-from-a-repository)).
+- `christopher.grieser [at] tu-berlin (dot) de`
+- For **technical support requests**, please create an issue at the respective
+  GitHub repository instead of sending en email to the address above: [How to
+  submit an issue at GitHub](https://docs.github.com/en/issues/tracking-your-work-with-issues/using-issues/creating-an-issue#creating-an-issue-from-a-repository)
