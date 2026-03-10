@@ -39,8 +39,7 @@ In addition, I am an alpha-tester for [Obsidian](http://obsidian.md) since 2022.
 ![GitHub card](https://githubcard.com/chrisgrieser.svg?d=eM90fAZT)
 
 ## Contact
-- **Academic purposes:** `christopher.grieser [at] tu-berlin (dot) de`
-- **Technical support requests:** create an issue at the respective GitHub
-  repository
+- **Academic inquiries:** `christopher.grieser [at] tu-berlin (dot) de`
+- **Technical support:** create an issue at the respective GitHub repository
   ([How to submit an issue at GitHub](https://docs.github.com/en/issues/tracking-your-work-with-issues/using-issues/creating-an-issue#creating-an-issue-from-a-repository))
 - **Other requests:** `mail {at} chris-grieser <dot> de`

@@ -10,7 +10,7 @@
 
 # CONFIG
 spinner="⠋⠙⠹⠸⠼⠴⠦⠧⠇⠏"
-timeout_secs=300 # = 5 minutes
+timeout_secs=180 # = 3 minutes
 
 #───────────────────────────────────────────────────────────────────────────────
 
@@ -30,10 +30,10 @@ for ((i = 1; i <= timeout_secs; i++)); do
 			-H "X-GitHub-Api-Version: 2022-11-28" \
 			"https://api.github.com/repos/$current_repo/actions/runs?per_page=1"
 	)
-	run_status=$(echo "$last_run" | grep '"status":' | cut -d'"' -f4)
+	run_status=$(echo "$last_run" | jq --raw-output ".workflow_runs[0].status")
 
 	# workflow name needs only to be fetched once, since it stays the same
-	[[ $i -eq 1 ]] && workflow_name=$(echo "$last_run" | grep '"display_title":' | cut -d'"' -f4)
+	[[ $i -eq 1 ]] && workflow_name=$(echo "$last_run" | jq --raw-output ".workflow_runs[0].status")
 
 	[[ "$run_status" == "completed" ]] && break
 	pos=$((i % ${#spinner}))
