@@ -40,7 +40,7 @@ this part is the realm of DNS
 - My package at Strato includes a [basic SSL
   certificate](https://www.strato.de/faq/domains/wie-kann-ich-mein-kostenfreies-strato-ssl-zertifikat-verwenden/).
   It does only offer encryption for the main domain, but not subdomains.
-  However, due to using GitHub pages, it's the site uses the certificate from
+  However, due to using GitHub pages, the site uses the certificate from
   "Let's encrypt" (the provider used by GitHub).
 
 ## Setting up the custom domain for GitHub pages
