@@ -31,9 +31,7 @@ for ((i = 1; i <= timeout_secs; i++)); do
 			"https://api.github.com/repos/$current_repo/actions/runs?per_page=1"
 	)
 	run_status=$(echo "$last_run" | jq --raw-output ".workflow_runs[0].status")
-
-	# workflow name needs only to be fetched once, since it stays the same
-	[[ $i -eq 1 ]] && workflow_name=$(echo "$last_run" | jq --raw-output ".workflow_runs[0].status")
+	workflow_name=$(echo "$last_run" | jq --raw-output ".workflow_runs[0].display_title")
 
 	[[ "$run_status" == "completed" ]] && break
 	pos=$((i % ${#spinner}))

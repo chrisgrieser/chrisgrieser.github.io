@@ -2,20 +2,20 @@
 title: Chris Grieser – Website
 ---
 
-<!-- rumdl-disable MD036 -->
-## Academic research in sociology
+## Academic research
+
 **Research areas**
 - Digital economy
 - Sociology of Technology, Innovation & Science
 - Qualitative Methods
 
-**PhD-project**
-The project investigates how the governance of digital platforms is linked with
-the challenge of innovating upon interdependent technologies. My empirical case
-is the development of apps for iOS and Android. [Read more.](/phd-project)
+**PhD-project**  
+For my PhD-thesis, I investigate how the governance of digital platforms is
+linked with the challenge of changing interdependent technologies. My
+empirical case is the development apps for iOS and Android.
+[Read more.](/phd-project)
 
 - [Publication list](/publication-list)
-- [PhD project](/phd-project)
 - [Website at TU Berlin](https://www.tu.berlin/en/sos/about/team/christopher-grieser-ma)
 - [ORCID](https://orcid.org/0000-0002-0767-9496)
 - [ResearchGate](https://www.researchgate.net/profile/Christopher-Grieser)
