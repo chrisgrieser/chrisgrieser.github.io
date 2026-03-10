@@ -24,21 +24,23 @@ is the development of apps for iOS and Android. [Read more.](/phd-project)
 
 ## Software development
 I am also a self-taught software developer and have created various plugins for
-[Neovim](https://dotfyle.com/chrisgrieser), [Obsidian](https://obsidian.md/plugins?search=Chris%20Grieser), and
-[Alfred](https://alfred.app/workflows/chrisgrieser/), including [an award-winning Obsidian theme](https://github.com/chrisgrieser/shimmering-focus)
-and [an Alfred plugin featured in the official plugin
-store](https://alfred.app/workflows/chrisgrieser/reddit-browser/). In addition,
-I am an alpha-tester for [Obsidian](http://obsidian.md) since 2022.
+[Neovim](https://dotfyle.com/chrisgrieser),
+[Obsidian](https://obsidian.md/plugins?search=Chris%20Grieser), and
+[Alfred](https://alfred.app/workflows/chrisgrieser/), including
+[an award-winning Obsidian theme](https://github.com/chrisgrieser/shimmering-focus)
+and
+[an Alfred plugin featured in the official plugin store](https://alfred.app/workflows/chrisgrieser/reddit-browser/).
+In addition, I am an alpha-tester for [Obsidian](http://obsidian.md) since 2022.
 
 - [GitHub](https://github.com/chrisgrieser)
-<!-- rumdl-disable-next-line MD033 -->
 - <a rel="me" href="https://pkm.social/@pseudometa">Mastodon</a><!--https://pkm.social/settings/verification-->
 - [Dotfiles](https://github.com/chrisgrieser/.config)
 
 ![GitHub card](https://githubcard.com/chrisgrieser.svg?d=eM90fAZT)
 
 ## Contact
-- `christopher.grieser [at] tu-berlin (dot) de`
-- For **technical support requests**, please create an issue at the respective
-  GitHub repository instead of sending en email to the address above: [How to
-  submit an issue at GitHub](https://docs.github.com/en/issues/tracking-your-work-with-issues/using-issues/creating-an-issue#creating-an-issue-from-a-repository)
+- **Academic purposes:** `christopher.grieser [at] tu-berlin (dot) de`
+- **Technical support requests:** create an issue at the respective GitHub
+  repository
+  ([How to submit an issue at GitHub](https://docs.github.com/en/issues/tracking-your-work-with-issues/using-issues/creating-an-issue#creating-an-issue-from-a-repository))
+- **Other requests:** `mail {at} chris-grieser <dot> de`
