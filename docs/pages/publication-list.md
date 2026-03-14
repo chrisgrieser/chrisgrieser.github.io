@@ -14,18 +14,13 @@ permalink: /publication-list
 <!--toc:end-->
 
 ## Publications
-- Grieser, C. (2025, in publication). Finding Complex Information in a Large
-  Dataset: LLMs as Generator of Linguistic Markers. In A. Simons, A. Wüthrich,
-  M. Zichert, & G. Graßhoff (Eds.), Large Language Models for the History,
-  Philosophy, and Sociology of Science. Reflections from a Field in Motion (pp.
-  xx–xx). transcript.
-- Grieser, C. (2025). Limits and Paradoxes of Accelerating Research. A
+- Grieser, C. (2026). Limits and Paradoxes of Accelerating Research. A
   Retrospective on the Attempts to Accelerate Medical Research on COVID-19.
-  Minerva. <https://doi.org/10.1007/s11024-024-09560-0>
+  Minerva, 64(1), 133–159. <https://doi.org/10.1007/s11024-024-09560-0>
 - Grieser, C. (2023). Innovation as Keeping Up. Interdependent Technologies as
-  Drivers of the Innovation Society. In: Schulz-Schaeffer, I., Seibt, D.,
-  Windeler, A. (eds) Innovationsgesellschaft heute. Springer VS, Wiesbaden. (➡️
-  [online](https://doi.org/10.1007/978-3-658-39743-2_4))
+  Drivers of the Innovation Society. In I. Schulz-Schaeffer, D. Seibt, & A.
+  Windeler (Eds.), Innovationsgesellschaft heute: Befunde und Ausblicke (pp.
+  93–121). Springer Fachmedien. <https://doi.org/10.1007/978-3-658-39743-2_4>
 - Grieser, C. (2020). Plattformen als infrastrukturzentrierte Märkte. Eine
   Integration von Markt- und Infrastruktur-Perspektiven auf Plattformen,
   illustriert am Beispiel von Solo-Selbstständigkeit im digitalen Kapitalismus.
