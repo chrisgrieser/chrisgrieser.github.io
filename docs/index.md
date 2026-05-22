@@ -30,10 +30,9 @@ I am also a self-taught software developer and have created various plugins for
 [an award-winning Obsidian theme](https://github.com/chrisgrieser/shimmering-focus)
 and
 [an Alfred plugin featured in the official plugin store](https://alfred.app/workflows/chrisgrieser/reddit-browser/).
-In addition, I am an alpha-tester for [Obsidian](http://obsidian.md) since 2022
-and co-maintainer of the
-[mason-registry](https://github.com/orgs/mason-org/people), a package manager
-for Neovim and Emacs.
+In addition, I am an alpha-tester for [Obsidian](http://obsidian.md) and
+co-maintainer of the [mason-registry](https://github.com/orgs/mason-org/people),
+a package manager for Neovim and Emacs.
 
 - [GitHub](https://github.com/chrisgrieser)
 - <a rel="me" href="https://pkm.social/@pseudometa">Mastodon</a><!--https://pkm.social/settings/verification-->
