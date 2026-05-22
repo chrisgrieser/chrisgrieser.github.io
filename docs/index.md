@@ -1,10 +1,10 @@
 ---
-title: Chris Grieser – Website
+title: Chris Grieser – Personal website
 ---
 
-## Academic research
+## Academic research in sociology
 
-**Research areas**
+**Research areas**  
 - Digital economy
 - Sociology of Technology, Innovation & Science
 - Qualitative Methods
@@ -30,7 +30,10 @@ I am also a self-taught software developer and have created various plugins for
 [an award-winning Obsidian theme](https://github.com/chrisgrieser/shimmering-focus)
 and
 [an Alfred plugin featured in the official plugin store](https://alfred.app/workflows/chrisgrieser/reddit-browser/).
-In addition, I am an alpha-tester for [Obsidian](http://obsidian.md) since 2022.
+In addition, I am an alpha-tester for [Obsidian](http://obsidian.md) since 2022
+and co-maintainer of the
+[mason-registry](https://github.com/orgs/mason-org/people), a package manager
+for Neovim and Emacs.
 
 - [GitHub](https://github.com/chrisgrieser)
 - <a rel="me" href="https://pkm.social/@pseudometa">Mastodon</a><!--https://pkm.social/settings/verification-->
@@ -40,6 +43,7 @@ In addition, I am an alpha-tester for [Obsidian](http://obsidian.md) since 2022.
 
 ## Contact
 - **Academic inquiries:** `christopher.grieser [at] tu-berlin (dot) de`
-- **Technical support:** create an issue at the respective GitHub repository
-  ([How to submit an issue at GitHub](https://docs.github.com/en/issues/tracking-your-work-with-issues/using-issues/creating-an-issue#creating-an-issue-from-a-repository))
+- **Technical support:** Please create an issue at the respective GitHub
+  repository.
+  ([How to submit an issue at GitHub.](https://docs.github.com/en/issues/tracking-your-work-with-issues/using-issues/creating-an-issue#creating-an-issue-from-a-repository))
 - **Other requests:** `mail {at} chris-grieser <dot> de`
