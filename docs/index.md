@@ -12,7 +12,7 @@ title: Chris Grieser – Personal website
 **PhD-project**  
 For my PhD-thesis, I investigate how the governance of digital platforms is
 linked with the challenge of changing interdependent technologies. My
-empirical case is the development of apps for iOS and Android.
+empirical case is the development of apps for iOS & Android.
 [Read more.](/phd-project)
 
 - [Publication list](/publication-list)
