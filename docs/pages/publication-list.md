@@ -1,10 +1,10 @@
 ---
 layout: default
-title: Publication list
 permalink: /publication-list
+title: Publication list
 ---
 
-# Publication list
+## Publication List
 
 <!--toc:start-->
 - [Publications](#publications)
@@ -13,7 +13,7 @@ permalink: /publication-list
 - [Nonacademic publications](#nonacademic-publications)
 <!--toc:end-->
 
-## Publications
+### Publications
 - Grieser, C. (2026). Limits and Paradoxes of Accelerating Research. A
   Retrospective on the Attempts to Accelerate Medical Research on COVID-19.
   Minerva, 64(1), 133–159. <https://doi.org/10.1007/s11024-024-09560-0>
@@ -56,43 +56,7 @@ permalink: /publication-list
   Technik. Proceedings der 2. Tagung des Nachwuchsnetzwerks "INSIST". München:
   SSOAR. (➡️ [online](https://www.ssoar.info/ssoar/handle/document/58220))
 
-## Talks
-- "Innovation As Keeping up: How the Necessity to Maintain Compatibility for
-  Interdependent Technologies Fuels the Innovation Imperative" at the 4th ISA
-  Forum, RC23, "273 - The Innovation Imperative", 24th February 2021.
-- "Digitale Räume als technisch geformte Beobachtungskonstellationen" [Digital
-  Spaces as Technologically Shaped Observation Constellations] at the 2nd
-  conference of the working group "Digitalization and Sociological Theory", 4th
-  December 2020.
-- „Plattformen als Infrastruktur-Dienstleister für Selbstständige“ ["Platforms
-  as Infrastructure-Provider for the Self-Employed"] at the national congress of
-  the German Sociological Association 2020, 21. September 2020 ➡️ [Report on
-  the talk at the Blog of the German Sociological Association
-  (German)](http://blog.soziologie.de/2020/09/ad-hoc-gruppe-selbstaendiger-erwerb-im-digitalen-kapitalismus-und-seine-einbettung-in-markt-haushalt-und-kultur-am-21-9-2020/)
-- „Algorithmen = Rankings + x? Impulse der Soziologie der Quantifizierung für
-  die Digitalisierungsforschung“ [Algorithms = Rankings + x? Ideas from the
-  Sociology of Quantification for the Research on Digitalization] at the 3rd
-  conference of the working group "Digitalization and Organization", 6. March
-  2020 in Berlin (together with Simon Egbert)
-- „The Subgroup-Based Recall. A Proposition for Collecting Data on Mid-Sized
-  Intraorganizational Networks (30 < n < 150) via Questionnaire“, at the 2.
-  Workshop of the Working Group Organizational Network Research, 27. September
-  2018 in Jena
-- „Scientific fields as epistemic regimes; new opportunities for comparative
-  science studies“ at the Workshop „Regimes of knowledge production“, 08. June
-  2018 in Berlin (together with Jochen Gläser, Grit Laudel, and Uli Meyer)
-- „FabLabs als Produktionsstätten zwischen Offenheit und Geschlossenheit“
-  [FabLabs as Production spaces between Openness and Closedness] at the
-  INSIST-Conference „Schafft Wissen“ at the Panel „Wissen in Labs“, 7. October
-  2016 in Munich (together with Jana Deisner)
-- „Womit beschäftigt sich eigentlich die Wissenschaftstheorie der
-  Sozialwissenschaften? Ein Versuch der Kartografierung des ‘Bermuda-Dreiecks’
-  zwischen Wissenschaftsphilosophie, Sozialtheorie und Methodologie“ [What does
-  the Philosophy of Social Sciences do? An Attempt to map the Bermuda-Triangle
-  between philosophy of science, social theory and methodology] in the
-  Colloquium for Methods of Social Research, 25. May 2016 in Berlin
-
-## Academic software
+### Academic Software
 - Grieser, C. (2025). Most Different Text Selector [Computer software].
   <https://github.com/chrisgrieser/most-different-text-selection>
 - Grieser, C. (2024). Qualitative Data Analysis Realized in Obsidian
@@ -111,11 +75,10 @@ permalink: /publication-list
 *Other nonacademic software I created can be found at [my GitHub
 Profile](https://github.com/chrisgrieser).*
 
-## Nonacademic publications
+### Nonacademic Publications
 - [Interview with me on how I use my Vault/Zettelkasten in Obsidian (YouTube,
   2h, 2022)](https://www.youtube.com/watch?v=DzJOJxDgQKc)
-- [One-Size-Fits-All? How to Take Big Notes and How to Take Small Note
-  (2022)](https://www.obsidianroundup.org/one-size-fits-all-how-to-take-big-notes-and-how-to-take-small-notes/)
+- [One-Size-Fits-All? How to Take Big Notes and How to Take Small Note (2022)](https://www.obsidianroundup.org/one-size-fits-all-how-to-take-big-notes-and-how-to-take-small-notes/)
 - [Comprehensive Academic Workflow from Reading to Writing in Markdown
   (2020)]({% post_url 2021-12-20-comprehensive-academic-workflow %}) <!--
   https://jekyllrb.com/docs/liquid/tags/#linking-to-posts -->

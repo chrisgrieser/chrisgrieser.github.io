@@ -1,19 +1,17 @@
-# Setup description
+# Setup Description
 
 <!-- toc -->
-
 - [Learnings](#learnings)
-- [Strato: Domain and DNS provider](#strato-domain-and-dns-provider)
-- [Setting up the custom domain for GitHub Pages](#setting-up-the-custom-domain-for-github-pages)
-    - [A & AAAA records](#a--aaaa-records)
-    - [CNAME record](#cname-record)
-    - [Domain verification (TXT record)](#domain-verification-txt-record)
+- [Strato: Domain and DNS Provider](#strato-domain-and-dns-provider)
+- [Setting up the Custom Domain for GitHub Pages](#setting-up-the-custom-domain-for-github-pages)
+    - [`A` & `AAAA` Records](#a--aaaa-records)
+    - [CNAME Record](#cname-record)
+    - [Domain Verification (TXT Record)](#domain-verification-txt-record)
 - [Content for GitHub Pages](#content-for-github-pages)
 - [Jekyll Theme](#jekyll-theme)
-- [Previous website setup](#previous-website-setup)
-    - [How it worked](#how-it-worked)
-    - [Past issues with Fruition](#past-issues-with-fruition)
-
+- [Previous Website Setup](#previous-website-setup)
+    - [How It Worked](#how-it-worked)
+    - [Past Issues with Fruition](#past-issues-with-fruition)
 <!-- tocstop -->
 
 ## Learnings
@@ -30,31 +28,30 @@ this part is the realm of DNS
                                 this part is all up to the server
 ```
 
-## Strato: domain and DNS provider
+## Strato: Domain and DNS Provider
 - Domain: <https://chris-grieser.de/>
 - bought via [Strato](https://www.strato.de/apps/CustomerService)
 - Allows up to 10 subdomains, however due to Strato only allowing one `A` and
   `AAA` record, it is not possible to use any subdomains with GitHub pages
   (`subdomain.chris-grieser.de`). Sub*sites* though should still be possible
   (`chris-grieser.de/subsite`).
-- My package at Strato includes a [basic SSL
-  certificate](https://www.strato.de/faq/domains/wie-kann-ich-mein-kostenfreies-strato-ssl-zertifikat-verwenden/).
+- My package at Strato includes a
+  [basic SSL certificate](https://www.strato.de/faq/domains/wie-kann-ich-mein-kostenfreies-strato-ssl-zertifikat-verwenden/).
   It does only offer encryption for the main domain, but not subdomains.
-  However, due to using GitHub pages, the site uses the certificate from
-  "Let's encrypt" (the provider used by GitHub).
+  However, due to using GitHub pages, the site uses the certificate from "Let's
+  encrypt" (the provider used by GitHub).
 
-## Setting up the custom domain for GitHub pages
+## Setting up the Custom Domain for GitHub Pages
 - [GitHub Pages docs: Quickstart](https://docs.github.com/en/pages/quickstart)
-- [GitHub Pages docs: Manage custom
-  domain](https://docs.github.com/en/pages/configuring-a-custom-domain-for-your-github-pages-site/managing-a-custom-domain-for-your-github-pages-site)
+- [GitHub Pages docs: Manage custom domain](https://docs.github.com/en/pages/configuring-a-custom-domain-for-your-github-pages-site/managing-a-custom-domain-for-your-github-pages-site)
 - Using Strato as domain and as DNS provider.
 
 > [!NOTE]
-> When doing DNS changes, [removing and re-adding the custom
-> domain](https://docs.github.com/en/pages/configuring-a-custom-domain-for-your-github-pages-site/troubleshooting-custom-domains-and-github-pages#https-errors)
+> When doing DNS changes,
+> [removing and re-adding the custom domain](https://docs.github.com/en/pages/configuring-a-custom-domain-for-your-github-pages-site/troubleshooting-custom-domains-and-github-pages#https-errors)
 > in the `Pages` settings may be required.
 
-### A & AAAA records
+### `A` & `AAAA` Records
 - Strato's domain config only offers `A` and `AAAA` as the type of address.
 - GitHub names 4 addresses each for `A` and `AAAA`, but `strato.de` only
   accepts one each. This restricts stability/reachability, but is tolerable for
@@ -70,7 +67,7 @@ chris-grieser.de.       150     IN      A       185.199.108.153
 chris-grieser.de.       92      IN      AAAA    2606:50c0:8000::153
 ```
 
-### CNAME record
+### CNAME Record
 - At the Strato dashboard, set the CNAME for the domain, pointing
   `www.chris-grieser.de` to `chrisgrieser.github.io`.
 - Having both `A/AAAA` records and the `CNAME` record set up results in passing
@@ -81,12 +78,12 @@ chris-grieser.de.       92      IN      AAAA    2606:50c0:8000::153
 > The `"CNAME"` mentioned in the GitHub documentation, however, refers to the
 > `CNAME` *record* at the DNS provider.
 
-### Domain verification (TXT record)
+### Domain Verification (TXT Record)
 - [GitHub docs: Verifying a custom domain](https://docs.github.com/en/pages/configuring-a-custom-domain-for-your-github-pages-site/verifying-your-custom-domain-for-github-pages#verifying-a-domain-for-your-user-site)
-     Note: the `Pages` settings mentioned in the docs refer to the settings in
-      the GitHub *profile*, not the `Pages` settings of the `*.github.io`
-      *repository*. (That is, the verification is done here:
-      <https://github.com/settings/pages>.)
+  Note: the `Pages` settings mentioned in the docs refer to the settings in
+  the GitHub *profile*, not the `Pages` settings of the `*.github.io`
+  *repository*. (That is, the verification is done here:
+  <https://github.com/settings/pages>.)
 - At the Strato dashboard, set the TXT for the domain, pointing
   `_github-pages-challenge-chrisgrieser.chris-grieser.de` to the `{value}`
   listed on the page.
@@ -99,14 +96,12 @@ dig _github-pages-challenge-chrisgrieser.chris-grieser.de +nostats +nocomments +
 _github-pages-challenge-chrisgrieser.chris-grieser.de. 150 IN TXT "{value}"
 ```
 
-## Content for GitHub pages
-- [Setting title and
-  description](https://docs.github.com/en/pages/quickstart#changing-the-title-and-description)
-- [Adding
-  content](https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/adding-content-to-your-github-pages-site-using-jekyll)
+## Content for GitHub Pages
+- [Setting title and description](https://docs.github.com/en/pages/quickstart#changing-the-title-and-description)
+- [Adding content](https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/adding-content-to-your-github-pages-site-using-jekyll)
 - [Jekyll docs](https://jekyllrb.com/docs/front-matter/)
 
-## Jekyll theme
+## Jekyll Theme
 Are set in the [`_config.yml`](./docs/_config.yml) file.
 
 ```yaml
@@ -121,10 +116,10 @@ plugins:
 remote_theme: pages-themes/modernist@v0.2.0
 ```
 
-## Previous website setup
+## Previous Website Setup
 *Information here kept for reference, the website itself does no longer exist.*
 
-### How it worked
+### How It Worked
 Components:
 - [Notion public sites](http://www.notion.so) &
   [Fruition](https://fruitionsite.com/) for the content.
@@ -133,6 +128,6 @@ Components:
 
 I followed the instructions on the Fruition website.
 
-### Past issues with fruition
+### Past Issues with Fruition
 - ["Issue with your iOS app" error · Issue #55](https://github.com/stephenou/fruitionsite/issues/55#issuecomment-1978266460)
 - [Doesn't the script work anymore? · Issue #287](https://github.com/stephenou/fruitionsite/issues/287)

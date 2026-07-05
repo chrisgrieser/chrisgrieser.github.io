@@ -1,18 +1,18 @@
 ---
 layout: default
-title: PhD-project
 permalink: /phd-project
+title: PhD-project
 ---
 
-# PhD-project
+## PhD-Project
 **Working title**: Platforms as Infrastructure-based Markets. How Digital
 Platforms combine Market and Infrastructural Control to meet the Governance
-Requirements of Interdependent Innovation
+Requirements of Interdependent Innovation.
 
-## Background
+### Background
 Academic research on platforms can basically be divided into two areas of study:
 On the one hand, platforms are seen as *technical infrastructures* that provide
-core functionality for complimentary products, e.g. a mobile operating system
+core functionality for complimentary products, e.g., a mobile operating system
 providing camera functionality for a wide range of apps. On the other hand,
 platforms are seen as *digital marketplaces* that are controlled by private
 firms, e.g., the App Store where the platform operator controls which developers
@@ -25,7 +25,7 @@ as organized marketplaces centered around a certain technical infrastructure
 where both market and infrastructure are in the control of one entity. This
 perspective allows relating insights from research on software platforms with
 research on gig economy or dating platforms, as all three are seen as specific
-sub-types of platforms only with a different degree to which the infrastructure
+subtypes of platforms only with a different degree to which the infrastructure
 or the market organization is relevant (see figure below).
 
 The central research question of my PhD-project is how the specific governance
@@ -45,9 +45,9 @@ other, I conduct qualitative interviews with app developers, CTOs, and computer
 scientists as well as extensive document analyses of several types of field
 documents.
 
-![Graph of platform dimensions](/images/graph-platform-dimensions.webp){: width="70%" }
+![Graph of platform dimensions](/images/graph-platform-dimensions.webp){:width="70%"}
 
-## Publications related to the PhD-project
+### Publications Related to the PhD-Project
 - Grieser, C. (2023). Innovation as Keeping Up. Interdependent Technologies as
   Drivers of the Innovation Society. In: Schulz-Schaeffer, I., Seibt, D.,
   Windeler, A. (eds) Innovationsgesellschaft heute. Springer VS, Wiesbaden.
@@ -55,7 +55,7 @@ documents.
 - Grieser, C. (2020). Plattformen als infrastrukturzentrierte Märkte. Eine
   Integration von Markt- und Infrastruktur-Perspektiven auf Plattformen,
   illustriert am Beispiel von Solo-Selbstständigkeit im digitalen Kapitalismus.
-  [Platforms as infrastructure-centered markets.Integrating Market- and
+  [Platforms as infrastructure-centered markets. Integrating Market- and
   Infrastructure Perspectives using the example of Self-Employment in Digital
   Capitalism.] Gesellschaft unter Spannung. Verhandlungen des 40. Kongresses der
   Deutschen Gesellschaft Für Soziologie 2020. (➡️
