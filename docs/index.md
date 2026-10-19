@@ -2,7 +2,7 @@
 title: Chris Grieser – Personal website
 ---
 
-## Academic research in sociology
+## Academic Research in Sociology
 
 **Research areas**  
 - Digital economy
@@ -22,7 +22,7 @@ empirical case is the development of apps for iOS and Android.
 - [Quadro: Obsidian plugin for
   Qualitative Data Analysis](https://github.com/chrisgrieser/obsidian-quadro)
 
-## Software development
+## Software Development
 I am also a self-taught software developer and have created various plugins for
 [Neovim](https://dotfyle.com/chrisgrieser),
 [Obsidian](https://obsidian.md/plugins?search=Chris%20Grieser), and
@@ -46,3 +46,5 @@ a package manager for Neovim and Emacs.
   repository.
   ([How to submit an issue at GitHub.](https://docs.github.com/en/issues/tracking-your-work-with-issues/using-issues/creating-an-issue#creating-an-issue-from-a-repository))
 - **Other requests:** `mail {at} chris-grieser <dot> de`
+- Please do not send me advertisement to try out your app or AI service. If you
+  do, I will report your mail as spam to all my spam filters services.
